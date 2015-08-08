@@ -1,0 +1,244 @@
+body {
+				background: url(../img/bg.jpg) no-repeat top left;
+				background-size: 100%;
+			}
+			#main {
+				width: 100%;
+				height: 1000px;
+				padding-top: 8px;
+				font-family: Trebuchet MS;
+				font-size: 12px;
+			}
+			#header {
+				width: 100%;
+				margin: 0 auto;
+				text-align: center;
+			}
+			#seachContext {
+				width: 378px;
+				height: 22px;
+			}
+			#searchSel {
+				width: 80px;
+				height: 22px;
+			}
+			#searchBtn {
+				width: 55px;
+				height: 22px;
+			}
+			.search {
+				margin: 17px;
+			}
+			#nav {
+				width: 770px;
+				height: 25px;
+				margin: 0 auto;
+				text-align: center;
+				color: #ffffff;
+				background-repeat: repeat-x;
+				background-position: left 7px;
+				background-color: #28a4fe;
+				margin-top: 15px;
+				margin-bottom: 15px;
+				padding-top: 5px;
+			}
+			#nav li {
+				display: inline-block;
+				border-right: 1px solid white;
+				padding: 0 7px;
+			}
+			#nav li a:link {
+				color: white;
+			}
+			#nav li a:visited {
+				color: white;
+			}
+			#nav li a:hover {
+				color: white;
+			}
+			#nav li a:active {
+				color: white;
+			}
+			#internetSpan {
+				font-family: "Trebuchet MS";
+				font-size: 18px;
+			}
+			#contextColumn {
+				width: 770px;
+				margin: 0 auto;
+				/*border: 1px solid black;*/
+				
+				margin-top: 8px;
+			}
+			.contextIntroduce {
+				border: 1px solid black;
+				width: 770px;
+				height: 182px;
+				margin: 0 auto;
+			}
+			.contextIntroduce .photo {
+				width: 170px;
+				height: 170px;
+				margin: 5px;
+				float: left;
+			}
+			.contextIntroduce .photo img {
+				display: inline-block;
+				width: 100%;
+				height: 100%;
+			}
+			.Internet {
+				width: 100%;
+				height: 70px;
+				margin-bottom: 8px;
+			}
+			.InternetLeft {
+				width: 260px;
+				height: 49px;
+				float: left;
+				margin-left: 24px;
+				margin-top: 10px;
+			}
+			.InternetRight {
+				text-align: right;
+				width: 200px;
+				height: 56px;
+				margin-right: 5px;
+				margin-top: 10px;
+				float: right;
+			}
+			.yourInfo {
+				border: 1px solid #cccccc;
+				width: 560px;
+				height: 86px;
+				float: left;
+				margin-left: 24px;
+			}
+			.columnLeft {
+				width: 270px;
+				float: left;
+			}
+			.columnRight {
+				width: 480px;
+				float: right;
+			}
+			.columnLeftTop {
+				/*				width: 270px;*/
+				
+				height: 249px;
+				border: 1px solid black;
+			}
+			.columnLeftBottom {
+				/*				width: 270px;
+*/
+				
+				height: 301px;
+				border: 1px solid black;
+				margin-top: 10px;
+			}
+			.columnRightTop {
+				height: 269px;
+				border: 1px solid black;
+			}
+			.columnRightMiddle {
+				height: 125px;
+				border: 1px solid black;
+				margin-top: 10px;
+			}
+			.columnRightBottom {
+				height: 180px;
+				border: 1px solid black;
+				margin-top: 10px;
+			}
+			h1 {
+				font-family: "Trebuchet MS";
+				font-size: 17px;
+				font-weight: bold;
+				color: white;
+				padding-left: 11px;
+				padding-top: 8px;
+			}
+			.contextHeader {
+				width: 258px;
+				height: 36px;
+				margin: 5px 5px 5px 5px;
+				background-color: #28a4fe;
+			}
+			.columnLeftTopBox,
+			.columnLeftTopBox2 {
+				width: 253px;
+				height: 46px;
+				margin: 0 5px 5px 5px;
+				line-height: 18px;
+				padding-left: 5px;
+			}
+			.columnLeftTopBox {
+				background-color: #e0f3ff;
+			}
+			.columnLeftTopBox2 {
+				background-color: #c2ddef;
+			}
+			.orangeCol {
+				color: #ff9a30;
+				line-height: 18px;
+			}
+			.columnLeftBottomBox,
+			.columnLeftBottomBox1 {
+				width: 253px;
+				height: 28px;
+				margin: 0 5px 3px 5px;
+				line-height: 18px;
+				padding-left: 5px;
+			}
+			.columnLeftBottomBox {
+				background-color: #e0f3ff;
+			}
+			.columnLeftBottomBox1 {
+				background-color: #c2ddef;
+			}
+			.rightDetail {
+				width: 468px;
+			}
+			.columnRightTopContext {
+				width: 468;
+			}
+			.rightP {
+				color: #ff9a30;
+				margin: 9px 5px;
+			}
+			.columnRightTopContext2 {
+				line-height: 19px;
+				margin: 10px 5px;
+			}
+			#footer {
+				width: 820px;
+				margin: 0 auto;
+				clear: both;
+				padding-top: 54px;
+				text-align: center;
+			}
+			#footer li {
+				display: inline-block;
+				padding-right: 8px;
+				padding-left: 12px;
+				border-right: 1px solid black;
+			}
+			#footer a {
+				text-decoration: none;
+			}
+			#footer a:link {
+				color: black;
+			}
+			#footer a:visited {
+				color: black;
+			}
+			#footer a:hover {
+				color: black;
+			}
+			#footer a:active {
+				color: black;
+			}
+			.footerDiv {
+				margin-top: 16px;
+				margin-bottom: 17px;
+			}
