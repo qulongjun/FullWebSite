@@ -1,0 +1,429 @@
+body {
+	font-family: "微软雅黑";
+	font-size: 16px;
+	font-weight: normal;
+	width: 100%;
+}
+.clearBoth {
+	clear: both;
+}
+#wrapper {
+	width: 100%;
+	height: 100%;
+}
+#container {
+	width: 100%;
+	height: 100%;
+}
+#header {
+	background: rgba(0, 0, 0, 0) url("../img/bg/header-bg.jpg") no-repeat fixed center top / cover;
+	width: 100%;
+}
+#cover,
+#cssCover,
+#jsCover,
+#webSiteCover,
+#ContactCover,
+#totalCover {
+	position: absolute;
+	z-index: 1;
+	background: rgba(0, 0, 0, 0.4);
+	width: 100%;
+	height: 100%;
+}
+#totalCover {
+	background: rgba(115, 224, 179, 0.72) none repeat scroll 0 0;
+}
+#ContactCover {
+	background: rgba(33, 103, 88, 0.9);
+}
+#header .topBar {
+	width: 100%;
+	height: 50px;
+	background: rgba(144, 146, 153, 0.94);
+	color: rgb(255, 255, 255);
+	position: fixed;
+	top: 0;
+	z-index: 10;
+}
+#header .topBar .leftHead {
+	line-height: 50px;
+	font-family: "Oswald", sans-serif;
+	font-size: 1.5em;
+	float: left;
+	text-indent: 1em;
+}
+#header .topBar .rightHead {
+	margin-right: 2%;
+	position: relative;
+	z-index: 4;
+}
+#header .topBar .rightHead li {
+	line-height: 50px;
+	font-size: 1em;
+	padding: 0 15px;
+	display: inline-block;
+	float: right;
+	cursor: pointer;
+}
+#header .topBar .rightHead li a{
+	color: rgb(255,255,255);
+	text-decoration: none;
+}
+#header .topBar .rightHead li:hover {
+	animation: rightHead 0.6s;
+	animation-fill-mode: forwards;
+}
+@keyframes rightHead {
+	to {
+		background: #0cd1f4;
+	}
+}
+#header .downloadPaper {
+	position: absolute;
+	top: 40%;
+	left: 30%;
+	text-align: center;
+	width: 40%;
+	margin: 0 auto;
+	color: white;
+	z-index: 6;
+}
+#header .downloadPaper h1 {
+	font-family: "SnellRoundhand46352", "arial, helvetica, sans-serif";
+	font-size: 6em;
+}
+#header .downloadPaper h2 {
+	font-family: 'CaiYunHanMaoBi-Xing398665', '隶书';
+	font-size: 2em;
+	line-height: 3em;
+}
+#header .downloadPaper a {
+	font-family: 'minijianlinxin398683', '华文行楷';
+	display: inline-block;
+	padding: 20px;
+	background: rgba(204, 255, 255, 0.8);
+	font-size: 1.5em;
+	color: rgb(0, 0, 0);
+	border: 1px solid rgba(255, 204, 204, 0.8);
+	cursor: pointer;
+}
+.bottomHand {
+	width: 100%;
+	text-align: center;
+	position: absolute;
+	bottom: 5%;
+	z-index: 6;
+}
+.bottomHand img {
+	width: 50px;
+	height: 50px;
+}
+#content {
+	width: 100%;
+	background-color: #e0f7f6;
+	margin: 0 auto;
+}
+#content .cssWork,
+#content .jsWork,
+#content .fullSiteWork,
+#content .contactMe,
+#content .total {
+	position: relative;
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+	background: rgba(0, 0, 0, 0) url("../img/bg/bg-2.jpg") no-repeat fixed center top / cover;
+}
+#content .jsWork {
+	background: rgba(0, 0, 0, 0) url("../img/bg/bg-4.jpg") no-repeat fixed center top / cover;
+}
+#content .fullSiteWork {
+	background: rgba(0, 0, 0, 0) url("../img/bg/bg-3.jpg") no-repeat fixed center top / cover;
+}
+#content .total {
+	background: rgba(0, 0, 0, 0) url("../img/bg/number1.gif") repeat fixed center center;
+}
+#content .total ul {
+	position: relative;
+	z-index: 4;
+}
+#content .contactMe {
+	background: rgba(0, 0, 0, 0) url("../img/bg/contact-bg.jpg") no-repeat fixed center top / cover;
+}
+#content .cssWork h1,
+#content .jsWork h1,
+#content .fullSiteWork h1,
+#content .contactMe h1,
+#content .total h1 {
+	position: relative;
+	z-index: 3;
+	font-family: 'cyzcuxingkai398944', '隶书';
+	font-size: 3em;
+	text-align: center;
+	font-weight: 600;
+	color: rgba(43, 163, 167, 0.8);
+	padding: 1% 0;
+}
+#content .total h1 {
+	padding-top: 2%;
+}
+#content .contactMe h1,
+#content .total h1 {
+	color: rgba(255, 255, 255, 0.8);
+}
+#content .cssWork .cssContent,
+#content .jsWork .jsContent,
+#content .fullSiteWork .fullSiteContent {
+	display: inline-block;
+	width: 20%;
+	margin: 1%;
+	position: relative;
+	z-index: 4;
+}
+#content .cssWork .cssContent img,
+#content .jsWork .jsContent img,
+#content .fullSiteWork .fullSiteContent img {
+	width: 100%;
+}
+#content .cssWork .cssContent .cover,
+#content .jsWork .jsContent .cover,
+#content .fullSiteWork .fullSiteContent .cover {
+	box-sizing: border-box;
+	background: rgba(0, 0, 0, 0.8);
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	opacity: 0;
+}
+#content .cssWork .cssContent .cover h2,
+#content .jsWork .jsContent .cover h2,
+#content .fullSiteWork .fullSiteContent .cover h2 {
+	padding: 5% 0;
+	font-size: 1.5em;
+	font-weight: 600;
+	text-align: center;
+	color: rgba(255, 255, 255, 1);
+}
+#content .cssWork .cssContent .cover p,
+#content .jsWork .jsContent .cover p,
+#content .fullSiteWork .fullSiteContent .cover p {
+	padding: 10px;
+	color: white;
+	text-align: left;
+	text-indent: 2em;
+	word-break: break-all;
+	word-wrap: break-word;
+}
+#content .cssWork .cssContent:hover .cover,
+#content .jsWork .jsContent:hover .cover,
+#content .fullSiteWork .fullSiteContent:hover .cover {
+	animation: cover 0.4s;
+	animation-fill-mode: forwards;
+}
+@keyframes cover {
+	from {
+		opacity: 0;
+		height: 0;
+	}
+	to {
+		opacity: 1;
+		height: 100%;
+	}
+}
+#content .total li {
+	font-family: "隶书";
+	display: inline-block;
+	width: 15%;
+	margin: 0 auto;
+	color: rgba(255, 255, 255, 1);
+	font-size: 1.5em;
+	line-height: 2em;
+}
+#content .viewMore {
+	width: 100%;
+	margin-top: 3%;
+	position: relative;
+	z-index: 5;
+}
+#content .viewMore a {
+	border: 1px solid green;
+	padding: 15px 30px;
+	color: #55b7a8;
+	text-decoration: none;
+	font-size: 1.5em;
+	font-family: 'minijianlinxin399001', '隶书';
+}
+#content .viewMore a:hover {
+	animation: viewMore 0.4s;
+	animation-fill-mode: forwards;
+}
+@keyframes viewMore {
+	to {
+		color: white;
+		background: rgba(27, 158, 170, 1);
+	}
+}
+#content .contactMe p:first-of-type {
+	font-size: 2em;
+	position: relative;
+	z-index: 3;
+	font-family: BauhausITCbyBT-Medium29403;
+}
+#content .contactMe p:last-of-type {
+	font-size: 1.5em;
+	position: relative;
+	z-index: 3;
+	font-family: 'minijianlinxin398683', '华文行楷';
+}
+#content .comment {
+	height: 60%;
+}
+#content .contactMe .leftComment,
+#content .contactMe .rightInfo {
+	position: relative;
+	z-index: 4;
+	width: 45%;
+	margin-left: 5%;
+	text-align: center;
+	float: left;
+	height: 100%;
+}
+#content .contactMe .leftComment h2 {
+	font-family: "隶书";
+	color: white;
+	font-size: 2em;
+	letter-spacing: 2em;
+}
+#content .contactMe .leftComment input[type=text],
+#content .contactMe .leftComment a,
+#content .contactMe .leftComment textarea {
+	background: transparent;
+	border: 1px solid rgb(255, 255, 255);
+	display: block;
+	margin: 20px auto;
+	width: 70%;
+	color: rgb(255, 255, 255);
+}
+#content .contactMe .leftComment input[type=text] {
+	height: 10%;
+}
+#content .contactMe .leftComment textarea {
+	height: 50%;
+}
+#content .contactMe .leftComment a {
+	text-decoration: none;
+	font-size: 1.2em;
+	line-height: 2em;
+	line-height: 40px;
+	letter-spacing: 2em;
+}
+#content .contactMe .leftComment a:hover {
+	animation: leftComment 0.4s;
+	animation-fill-mode: forwards;
+}
+@keyframes leftComment {
+	to {
+		color: rgba(0, 0, 0, 1);
+		background: rgba(255, 255, 255, 1);
+	}
+}
+#content .contactMe .rightInfo {
+	padding-top: 5%;
+	font-size: 1.2em;
+	line-height: 1.5em;
+	color: rgb(255, 255, 255);
+	text-align: left;
+	height: auto;
+}
+#content .contactMe .rightInfo li {
+	padding: 10px;
+}
+#content .contactMe .rightInfo li a {
+	color: rgb(255, 255, 255);
+	text-decoration: none;
+}
+#content .contactMe .rightInfo .btn {
+	margin: 20px;
+}
+#content .contactMe .rightInfo .btn a {
+	color: rgb(255, 255, 255);
+	text-decoration: none;
+	padding: 10px 20px;
+	margin-right: 5%;
+	border: 1px solid rgb(255, 255, 255);
+}
+#content .contactMe .rightInfo .btn a:hover {
+	animation: leftComment 0.4s;
+	animation-fill-mode: forwards;
+}
+@media only screen and (min-width: 1401px) and (max-width: 1520px) {
+	#content .cssWork h1,
+	#content .jsWork h1,
+	#content .fullSiteWork h1 {
+		padding-top: 5%;
+	}
+}
+@media only screen and (min-width: 1070px) and (max-width: 1400px) {
+	#content .cssWork h1,
+	#content .jsWork h1,
+	#content .fullSiteWork h1 {
+		padding-top: 10%;
+	}
+	#header .downloadPaper h1 {
+		font-size: 4em;
+	}
+	#content .cssWork .cssContent .cover p,
+	#content .jsWork .jsContent .cover p,
+	#content .fullSiteWork .fullSiteContent .cover p {
+		visibility: hidden;
+	}
+}
+@media only screen and (min-width: 821px) and (max-width: 1069px) {
+	#content .cssWork h1,
+	#content .jsWork h1,
+	#content .fullSiteWork h1 {
+		padding-top: 20%;
+	}
+	#header .downloadPaper {
+		position: absolute;
+		left: 20%;
+		width: 60%;
+	}
+	#header .downloadPaper h1 {
+		font-size: 4em;
+	}
+	#content .cssWork .cssContent .cover p,
+	#content .jsWork .jsContent .cover p,
+	#content .fullSiteWork .fullSiteContent .cover p {
+		visibility: hidden;
+	}
+}
+@media only screen and (min-width: 100px) and (max-width: 820px) {
+	#content .cssWork h1,
+	#content .jsWork h1,
+	#content .fullSiteWork h1 {
+		padding-top: 20%;
+	}
+	#header .downloadPaper {
+		position: absolute;
+		left: 20%;
+		width: 60%;
+	}
+	#header .downloadPaper h1 {
+		font-size: 3em;
+	}
+	#content .cssWork .cssContent .cover p,
+	#content .jsWork .jsContent .cover p,
+	#content .fullSiteWork .fullSiteContent .cover p {
+		visibility: hidden;
+	}
+	#content .total li {
+		font-size: 1.2em;
+		width: 30%;
+	}
+	#header .topBar {
+		height: 100px;
+	}
+}
