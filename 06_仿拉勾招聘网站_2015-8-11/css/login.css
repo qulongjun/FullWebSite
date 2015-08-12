@@ -1,0 +1,179 @@
+body {
+	height: 100%;
+	font-size: 16px;
+	font-family: "微软雅黑";
+}
+#wrapper {
+	width: 100%;
+	background: #019875 url("img/bgwall.png") no-repeat scroll center 100px;
+	height: 100%;
+}
+#container {
+	width: 40%;
+	margin: 0 auto;
+	height: 100%;
+}
+#container .header {
+	padding-top: 25%;
+	margin-bottom: 5%;
+	width: 100%;
+	overflow: hidden;
+}
+#container .header .topLeft {
+	float: left;
+}
+#container .header .cloud {
+	overflow: visible;
+	padding-left: 50px;
+}
+#container .header .cloudLeft,
+#container .header .cloudRight {
+	position: relative;
+	float: left;
+}
+#container .content {
+	position: relative;
+	width: 100%;
+	background: rgb(234, 255, 253) none repeat scroll 0 0;
+	overflow: hidden;
+}
+#container .content .loginIpt {
+	width: 50%;
+	padding: 5%;
+	float: left;
+}
+#container .content .loginIpt input[type=email],
+#container .content .loginIpt input[type=password] {
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 20px;
+	padding: 6px 10px;
+	width: 90%;
+	height: 30px;
+	border: none;
+	color: #777777;
+	font-size: 16px;
+	font-family: "微软雅黑";
+}
+#container .content .loginIpt input[type=email]:hover,
+#container .content .loginIpt input[type=password]:hover {
+	-moz-box-shadow: 0px 0px 5px rgb(179, 251, 244);
+	-webkit-box-shadow: 0px 0px 5px rgb(179, 251, 244);
+	box-shadow: 0px 0px 5px rgb(179, 251, 244);
+}
+#container .content .loginIpt input[type=checkbox],
+#container .content .loginIpt label,
+#container .content .loginIpt .forget a {
+	color: #777777;
+	font-size: 16px;
+	text-decoration: none;
+	font-family: "微软雅黑";
+}
+#container .content .loginIpt .forget {
+	float: right;
+}
+#container .content .loginIpt .login {
+	display: inline-block;
+	text-decoration: none;
+	margin-top: 20px;
+	width: 155px;
+	line-height: 46px;
+	height: 46px;
+	color: rgb(255, 255, 255);
+	background: #019875 none repeat scroll 0 0;
+	text-align: center;
+}
+#container .registBtn {
+	padding: 5% 5%;
+	float: right;
+	position: absolute;
+	right: 0;
+	top: 10%;
+	border-left: 1px dashed #777777;
+	width: 30%;
+	height: 55%;
+	margin: 0 auto;
+	text-align: left;
+}
+#container .registBtn .loginDirect {
+	background: rgba(0, 0, 0, 0) url("img/wbqq.png") no-repeat scroll left top;
+	height: 54px;
+	width: 127px;
+}
+#container .registBtn span {
+	display: block;
+	color: #777777;
+	font-size: 16px;
+	text-decoration: none;
+}
+#container .registBtn a {
+	display: block;
+	color: #019875;
+	float: left;
+	line-height: 20px;
+	text-decoration: none;
+}
+#container .registBtn .logo {
+	float: right;
+	width: 20px;
+	height: 20px;
+	background: rgba(0, 0, 0, 0) url("img/registor_now.png") no-repeat scroll right center;
+}
+#container .registBtn .directSpan {
+	margin-top: 30px;
+	margin-bottom: 10px;
+}
+#container .registBtn .loginDirect .weixinLogin,
+#container .registBtn .loginDirect .qqLogin {
+	width: 60px;
+	height: 100%;
+	float: left;
+	cursor: pointer;
+}
+@media only screen and (max-width: 1280px) {
+	#container {
+		width: 50%;
+	}
+}
+@media only screen and (max-width: 1024px) {
+	#container {
+		width: 60%;
+	}
+}
+@media only screen and (max-width: 860px) {
+	#container {
+		width: 70%;
+	}
+}
+@media only screen and (max-width: 735px) {
+	#container {
+		width: 80%;
+	}
+}
+@media only screen and (max-width: 648px) {
+	#container {
+		width: 90%;
+	}
+}
+@media only screen and (max-width: 560px) {
+	#container {
+		width: 100%;
+	}
+	#container .header .cloudLeft,
+	#container .header .cloudRight {
+		display: none;
+	}
+	#container .content .loginIpt {
+		width: 80%;
+	}
+	#container .content .registBtn {
+		width: 80%;
+		position: static;
+		border: none;
+		float: none;
+	}
+	#container .header{
+		padding-top: 10%;
+	}
+	
+}
