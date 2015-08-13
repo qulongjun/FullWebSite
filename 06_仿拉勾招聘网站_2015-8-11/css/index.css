@@ -1,63 +1,7 @@
-#wrapper {
-	width: 100%;
-	font-family: "微软雅黑", ​"宋体", ​Arial;
-	font-size: 16px;
-	border-top: 3px solid rgb(1, 152, 117);
-}
-#container,
-#header {
+#container {
 	width: 55%;
 	margin: 0 auto;
 	margin-bottom: 35px;
-}
-#top {
-	width: 100%;
-	height: 60px;
-	vertical-align: middle;
-	background: #fafafa none repeat scroll 0 0;
-	position: relative;
-}
-#top .topBar {
-	display: inline-block;
-	margin-left: 50px;
-}
-#top img {
-	width: 22%;
-	vertical-align: middle;
-}
-#top .topBar li {
-	display: inline-block;
-	font-size: 1.25em;
-	margin-right: 40px;
-	line-height: 57px;
-	color: rgb(153, 153, 153);
-	cursor: pointer;
-}
-#top .topBar .active {
-	border-bottom: 3px solid rgb(1, 152, 117);
-}
-#top .topBar li:hover {
-	color: rgb(0, 0, 0);
-}
-#top .loginBtn {
-	position: absolute;
-	right: 0;
-	top: 0;
-	background: rgb(1, 152, 117);
-}
-#top .loginBtn a {
-	display: inline-block;
-	padding: 0 13px;
-	margin: 6px 0;
-	font-size: 0.87em;
-	color: rgb(255, 255, 255);
-	text-decoration: none;
-}
-#top .loginBtn a:first-of-type {
-	border-right: 1px solid rgb(255, 255, 255);
-}
-#top .loginBtn a:hover {
-	color: rgb(204, 234, 227);
 }
 #content {
 	width: 100%;
@@ -478,54 +422,8 @@
 	color: #0061A6;
 	text-decoration: underline;
 }
-#bottom {
-	text-align: center;
-}
-#bottom hr {
-	color: rgba(236, 236, 236, 0.3);
-}
-#bottom ul {
-	position: absolute;
-	display: inline-block;
-}
-#bottom li {
-	position: relative;
-	display: inline-block;
-	font-size: 0.8em;
-	line-height: 2em;
-	padding: 0 20px;
-	color: rgb(85, 85, 85);
-	cursor: pointer;
-}
-#bottom .weixin {
-	position: absolute;
-	top: -243px;
-	z-index: 4;
-	opacity: 0;
-	left: 0;
-}
-#bottom li:last-of-type:hover .weixin {
-	opacity: 1;
-}
-#bottom .webInfo {
-	float: right;
-	padding-right: 20%;
-	color: rgb(85, 85, 85);
-	display: inline-block;
-}
-#returnBack {
-	
-	background: rgba(0, 0, 0, 0) url(img/backtop.png) no-repeat scroll left top;
-	bottom: 80px;
-	cursor: pointer;
-	display: none;
-	height: 64px;
-	right: 20%;
-	position: fixed;
-	width: 28px;
-}
-#returnBack:hover{
-	background-position:right top;
+#returnBack:hover {
+	background-position: right top;
 }
 @media only screen and (max-width: 1760px) {
 	#container,
@@ -546,11 +444,6 @@
 		display: none;
 	}
 }
-@media only screen and (max-width: 1500px) {
-	#top .topBar li {
-		margin-right: 20px;
-	}
-}
 @media only screen and (max-width: 1400px) {
 	#container,
 	#header {
@@ -558,14 +451,6 @@
 	}
 	.rightContent .advert .advertItem .hot_info h2 {
 		font-size: 1.3em;
-	}
-	#bottom .webInfo {
-		float: none;
-		display: block;
-		padding-right: 0;
-	}
-	#bottom ul {
-		position: static;
 	}
 }
 @media only screen and (max-width: 1080px) {
@@ -582,24 +467,11 @@
 		display: none;
 	}
 	.searchBar #searchBtn {
-		width: 15%;
+		width: 15
 	}
 }
 @media only screen and (max-width: 700px) {
-	#top .topBar li {
-		margin-right: 5px;
-		font-size: 1em;
-	}
 	.rightContent .advert .advertItem .hot_info h2 {
 		font-size: 1em;
-	}
-	#top .loginBtn a {
-		display: block;
-	}
-}
-@media only screen and (max-width: 480px) {
-	#top .topBar li {
-		font-size: 0.8em;
-		margin-right: 0;
 	}
 }

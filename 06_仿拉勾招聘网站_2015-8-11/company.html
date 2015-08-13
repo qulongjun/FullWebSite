@@ -1,0 +1,651 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title>全国-公司列表-拉勾网-最专业的互联网招聘平台</title>
+		<link rel="stylesheet" type="text/css" href="css/cssReset.min.css" />
+		<link rel="stylesheet" type="text/css" href="css/top.min.css" />
+		<link rel="stylesheet" type="text/css" href="css/company.min.css" />
+		<link rel="stylesheet" type="text/css" href="css/bottom.min.css" />
+		<script src="js/jquery-1.11.3.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/gotoTop.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/company.min.js" type="text/javascript" charset="utf-8"></script>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+	</head>
+
+	<body>
+		<!--Wrapper-->
+		<div id="wrapper">
+			<!--Header-->
+			<div id="header">
+				<div id="top">
+					<img src="img/logo.png" />
+					<ul class="topBar">
+						<li>首页</li>
+						<li class="active">公司</li>
+						<li>我的简历</li>
+						<li>发布职位</li>
+					</ul>
+					<div class="loginBtn">
+						<a href="#">注册</a>
+						<a href="login.html">登录</a>
+					</div>
+				</div>
+			</div>
+			<!--End Header-->
+			<!--Container-->
+			<div id="container">
+				<!--LeftContent左侧边栏-->
+				<div class="leftContent">
+					<!--LeftHead 左侧头部-->
+					<div class="leftHead">
+						<!--PlaceNav 公司地址-->
+						<div class="placeNav">
+							<ul class="showPlace">
+								<li><a href="#">全国</a></li>
+								<li><a href="#">北京</a></li>
+								<li><a href="#">上海</a></li>
+								<li><a href="#">广州</a></li>
+								<li><a href="#">深圳</a></li>
+								<li><a href="#">成都</a></li>
+								<li><a href="#">杭州</a></li>
+								<li><a href="#">武汉</a></li>
+								<li><a href="#">南京</a></li>
+								<li><a href="#">其他<span class="down"></span></a></li>
+							</ul>
+							<!--隐藏地址-->
+							<div class="otherPlaceNav">
+								<dl>
+									<dt>ABCDEF</dt>
+									<dd>
+										<ul>
+											<li><a href="#">北京</a></li>
+											<li><a href="#">长春</a></li>
+											<li><a href="#">成都</a></li>
+											<li><a href="#">重庆</a></li>
+											<li><a href="#">长沙</a></li>
+											<li><a href="#">常州</a></li>
+											<li><a href="#">东莞</a></li>
+											<li><a href="#">大连</a></li>
+											<li><a href="#">佛山</a></li>
+											<li><a href="#">福州</a></li>
+										</ul>
+									</dd>
+								</dl>
+								<dl>
+									<dt>GHIJ</dt>
+									<dd>
+										<ul>
+											<li><a href="#">贵阳</a></li>
+											<li><a href="#">广州</a></li>
+											<li><a href="#">哈尔滨</a></li>
+											<li><a href="#">合肥</a></li>
+											<li><a href="#">海口</a></li>
+											<li><a href="#">杭州</a></li>
+											<li><a href="#">惠州</a></li>
+											<li><a href="#">金华</a></li>
+											<li><a href="#">济南</a></li>
+											<li><a href="#">嘉兴</a></li>
+										</ul>
+									</dd>
+								</dl>
+								<dl>
+									<dt>KLMN</dt>
+									<dd>
+										<ul>
+											<li><a href="#">昆明</a></li>
+											<li><a href="#">廊坊</a></li>
+											<li><a href="#">宁波</a></li>
+											<li><a href="#">南昌</a></li>
+											<li><a href="#">南京</a></li>
+											<li><a href="#">南宁</a></li>
+											<li><a href="#">南通</a></li>
+										</ul>
+									</dd>
+								</dl>
+								<dl>
+									<dt>OPQR</dt>
+									<dd>
+										<ul>
+											<li><a href="#">青岛</a></li>
+											<li><a href="#">泉州</a></li>
+										</ul>
+									</dd>
+								</dl>
+								<dl>
+									<dt>STUV</dt>
+									<dd>
+										<ul>
+											<li><a href="#">上海</a></li>
+											<li><a href="#">石家庄</a></li>
+											<li><a href="#">绍兴</a></li>
+											<li><a href="#">沈阳</a></li>
+											<li><a href="#">深圳</a></li>
+											<li><a href="#">苏州</a></li>
+											<li><a href="#">天津</a></li>
+											<li><a href="#">太原</a></li>
+											<li><a href="#">台州</a></li>
+										</ul>
+									</dd>
+								</dl>
+								<dl>
+									<dt>WXYZ</dt>
+									<dd>
+										<ul>
+											<li><a href="#">武汉</a></li>
+											<li><a href="#">无锡</a></li>
+											<li><a href="#">温州</a></li>
+											<li><a href="#">西安</a></li>
+											<li><a href="#">厦门</a></li>
+											<li><a href="#">烟台</a></li>
+											<li><a href="#">珠海</a></li>
+											<li><a href="#">中山</a></li>
+											<li><a href="#">郑州</a></li>
+										</ul>
+									</dd>
+								</dl>
+							</div>
+						</div>
+						<!--End PlaceNav-->
+						<!--CompanyType公司类型-->
+						<div class="companyType">
+							<dl>
+								<dt>发展阶段:</dt>
+								<dd>
+									<ul>
+										<li><a href="#">初创型</a></li>
+										<li><a href="#">成长型</a></li>
+										<li><a href="#">成熟型</a></li>
+										<li><a href="#">已上市</a></li>
+									</ul>
+								</dd>
+							</dl>
+							<dl>
+								<dt>行业领域:</dt>
+								<dd>
+									<ul>
+										<li><a href="#">移动互联网</a></li>
+										<li><a href="#">电子商务</a></li>
+										<li><a href="#">社交</a></li>
+										<li><a href="#">企业服务</a></li>
+										<li><a href="#">O2O</a></li>
+										<li><a href="#">教育</a></li>
+										<li><a href="#">文化艺术</a></li>
+										<li><a href="#">游戏</a></li>
+										<li><a href="#">在线旅游</a></li>
+										<li><a href="#">金融互联网</a></li>
+										<li><a href="#">健康医疗</a></li>
+										<li><a href="#">生活服务</a></li>
+										<li><a href="#">硬件</a></li>
+										<li><a href="#">搜索</a></li>
+										<li><a href="#">安全</a></li>
+										<li><a href="#">运动体育</a></li>
+										<li><a href="#">云计算\大数据</a></li>
+										<li><a href="#">移动广告</a></li>
+										<li><a href="#">社会化营销</a></li>
+										<li><a href="#">视频多媒体</a></li>
+										<li><a href="#">媒体</a></li>
+										<li><a href="#">智能家居</a></li>
+										<li><a href="#">智能电视</a></li>
+										<li><a href="#">分类信息</a></li>
+										<li><a href="#">招聘</a></li>
+									</ul>
+								</dd>
+							</dl>
+						</div>
+						<!--End CompanyType-->
+					</div>
+					<!--End LeftHead-->
+					<!--LeftMain 左侧主体部分-->
+					<div class="leftMain">
+						<div class="mainItem">
+							<div class="items">
+								<a href="#">
+									<h2>CCIC</h2>
+									<div class="itemsPic">
+										<img src="img/logo_default.png" />
+										<div class="cover">
+											<ul>
+												<li>安全</li>
+												<li>深圳,D轮及以上</li>
+											</ul>
+										</div>
+									</div>
+									<div class="companyJob">
+										<a href="#" class="job">环境监测工程师</a>
+										<a href="#" class="job">电学校准工程师</a>
+										<a href="#" class="job">能源管理项目经理</a>
+									</div>
+									<span class="special">D轮及以上</span>
+									<span class="special">安全</span>
+									<span class="special">年终分红</span>
+									<span class="special">绩效奖金</span>
+									<span class="special">五险一金</span>
+									<span class="special">交通补助</span>
+								</a>
+							</div>
+
+							<div class="items">
+								<a href="#">
+									<h2>MOMO</h2>
+									<div class="itemsPic">
+										<img src="img/c5e0d4d3dc9047c89986c9eca2feb277.png" />
+										<div class="cover">
+											<ul>
+												<li>移动互联网</li>
+												<li>西安,C轮</li>
+											</ul>
+										</div>
+									</div>
+									<div class="companyJob">
+										<a href="#" class="job">PHP</a>
+										<a href="#" class="job">U3D</a>
+										<a href="#" class="job">游戏动作/主美</a>
+									</div>
+									<span class="special">C轮</span>
+									<span class="special">移动互联网</span>
+									<span class="special">五险</span>
+									<span class="special">年度旅游</span>
+									<span class="special">扁平管理</span>
+								</a>
+							</div>
+							<div class="items">
+								<a href="#">
+									<h2>博雅</h2>
+									<div class="itemsPic">
+										<img src="img/05ca024b95d242bb8178edaa5bd1b25a.jpg" />
+										<div class="cover">
+											<ul>
+												<li>移动互联网,电子商务</li>
+												<li>北京,B轮</li>
+											</ul>
+										</div>
+									</div>
+									<div class="companyJob">
+										<a href="#" class="job">PHP后端研发工程师</a>
+										<a href="#" class="job">PHP高级工程师——ERP方向</a>
+										<a href="#" class="job">PHP架构师</a>
+										<a href="#" class="job">PHP高级研发工程师</a>
+									</div>
+									<span class="special">B轮</span>
+									<span class="special">移动互联网</span>
+									<span class="special">电子商务</span>
+									<span class="special">股票期权</span>
+									<span class="special">绩效奖金</span>
+									<span class="special">五险一金</span>
+								</a>
+							</div>
+						</div>
+						<div class="mainItem">
+							<div class="items">
+								<a href="#">
+									<h2>飞道科技</h2>
+									<div class="itemsPic">
+										<img src="img/ff80808146d99c970146efd983ea016a.jpg" />
+										<div class="cover">
+											<ul>
+												<li>移动互联网</li>
+												<li>郑州,D轮及以上</li>
+											</ul>
+										</div>
+									</div>
+									<div class="companyJob">
+										<a href="#" class="job">Java底层开发工程师</a>
+										<a href="#" class="job">Android</a>
+										<a href="#" class="job">iOS</a>
+										<a href="#" class="job">WPF研发工程师</a>
+									</div>
+									<span class="special">D轮及以上</span>
+									<span class="special">移动互联网</span>
+									<span class="special">绩效奖金</span>
+									<span class="special">专项奖金</span>
+									<span class="special">五险一金</span>
+									<span class="special">带薪年假</span>
+								</a>
+							</div>
+							<div class="items">
+								<a href="#">
+									<h2>世纪优优</h2>
+									<div class="itemsPic">
+										<img src="img/logo_default.png" />
+										<div class="cover">
+											<ul>
+												<li>视频多媒体,媒体</li>
+												<li>北京,D轮及以上</li>
+											</ul>
+										</div>
+									</div>
+									<div class="companyJob">
+										<a href="#" class="job">视频网站编辑</a>
+										<a href="#" class="job">海外市场经理</a>
+										<a href="#" class="job">平面设计师</a>
+										<a href="#" class="job">视频网站主编</a>
+									</div>
+									<span class="special">D轮及以上</span>
+									<span class="special">视频多媒体</span>
+									<span class="special">媒体</span>
+									<span class="special">绩效奖金</span>
+									<span class="special">股票期权</span>
+									<span class="special">五险一金</span>
+								</a>
+							</div>
+							<div class="items">
+								<a href="#">
+									<h2>易迅</h2>
+									<div class="itemsPic">
+										<img src="img/logo_default.png" />
+										<div class="cover">
+											<ul>
+												<li>电子商务</li>
+												<li>上海,D轮及以上</li>
+											</ul>
+										</div>
+									</div>
+									<div class="companyJob">
+										<a href="#" class="job">WEB前端开发工程师</a>
+									</div>
+									<span class="special">D轮及以上</span>
+									<span class="special">电子商务</span>
+									<span class="special">绩效奖金</span>
+									<span class="special">年底双薪</span>
+									<span class="special">五险一金</span>
+									<span class="special">岗位晋升</span>
+								</a>
+							</div>
+						</div>
+						<div class="mainItem">
+							<div class="items">
+								<a href="#">
+									<h2>大东方</h2>
+									<div class="itemsPic">
+										<img src="img/3ad1d8845e8345019006b38cd45302c0.jpg" />
+										<div class="cover">
+											<ul>
+												<li>金融互联网</li>
+												<li>成都,D轮及以上</li>
+											</ul>
+										</div>
+									</div>
+									<div class="companyJob">
+										<a href="#" class="job">BD经理</a>
+									</div>
+									<span class="special">D轮及以上</span>
+									<span class="special">金融互联网</span>
+									<span class="special">绩效奖金</span>
+									<span class="special">年底双薪</span>
+									<span class="special">专项奖金</span>
+									<span class="special">五险一金</span>
+								</a>
+							</div>
+							<div class="items">
+								<a href="#">
+									<h2>金棕榈</h2>
+									<div class="itemsPic">
+										<img src="img/f57de6b836fa454ebd13c41537e152ba.png" />
+										<div class="cover">
+											<ul>
+												<li>金融互联网</li>
+												<li>成都,D轮及以上</li>
+											</ul>
+										</div>
+									</div>
+									<div class="companyJob">
+										<a href="#" class="job">测试工程师</a>
+										<a href="#" class="job">iOS</a>
+										<a href="#" class="job">UI设计师</a>
+										<a href="#" class="job">Java</a>
+									</div>
+									<span class="special">B轮</span>
+									<span class="special">移动互联网</span>
+									<span class="special">云计算/大数据</span>
+									<span class="special">绩效奖金</span>
+									<span class="special">年底双薪</span>
+									<span class="special">通讯补贴</span>
+								</a>
+							</div>
+							<div class="items">
+								<a href="#">
+									<h2>永航科技</h2>
+									<div class="itemsPic">
+										<img src="img/8e05f869fe0640318d62c562d6a9a322.jpg" />
+										<div class="cover">
+											<ul>
+												<li>游戏</li>
+												<li>北京,D轮及以上</li>
+											</ul>
+										</div>
+									</div>
+									<div class="companyJob">
+										<a href="#" class="job">U3D开发工程师</a>
+										<a href="#" class="job">游戏特效</a>
+										<a href="#" class="job">原画师</a>
+										<a href="#" class="job">C++</a>
+									</div>
+									<span class="special">D轮及以上</span>
+									<span class="special">游戏</span>
+									<span class="special">绩效奖金</span>
+									<span class="special">五险一金</span>
+									<span class="special">带薪年假</span>
+									<span class="special">定期体检</span>
+								</a>
+							</div>
+						</div>
+						<div class="mainItem">
+							<div class="items">
+								<a href="#">
+									<h2>北京思特奇</h2>
+									<div class="itemsPic">
+										<img src="img/8d63eda78f714d2dacb0e5d201bbce2e.jpg" />
+										<div class="cover">
+											<ul>
+												<li>电子商务,云计算/大数据</li>
+												<li>南昌,D轮及以上</li>
+											</ul>
+										</div>
+									</div>
+									<div class="companyJob">
+										<a href="#" class="job">Java高级工程师</a>
+										<a href="#" class="job">网站运营专员</a>
+										<a href="#" class="job">Java开发工程师</a>
+									</div>
+									<span class="special">D轮及以上</span>
+									<span class="special">电子商务</span>
+									<span class="special">云计算/大数据</span>
+									<span class="special">绩效奖金</span>
+									<span class="special">专项奖金</span>
+									<span class="special">五险一金</span>
+								</a>
+							</div>
+							<div class="items">
+								<a href="#">
+									<h2>瑞德医疗</h2>
+									<div class="itemsPic">
+										<img src="img/11c812bedb4a481fa06ca488dac2f23f.png" />
+										<div class="cover">
+											<ul>
+												<li>健康医疗</li>
+												<li>北京,C轮</li>
+											</ul>
+										</div>
+									</div>
+									<div class="companyJob">
+										<a href="#" class="job">网站编辑</a>
+										<a href="#" class="job">市场营销</a>
+									</div>
+									<span class="special">C轮</span>
+									<span class="special">健康医疗</span>
+								</a>
+							</div>
+							<div class="items">
+								<a href="#">
+									<h2>乐影网</h2>
+									<div class="itemsPic">
+										<img src="img/7fdf693be1044ed8a71f561420162a3b.png" />
+										<div class="cover">
+											<ul>
+												<li>O2O</li>
+												<li>北京,B轮</li>
+											</ul>
+										</div>
+									</div>
+									<div class="companyJob">
+										<a href="#" class="job">C++开发工程师</a>
+									</div>
+									<span class="special">B轮</span>
+									<span class="special">O2O</span>
+									<span class="special">五险一金</span>
+									<span class="special">带薪年假</span>
+									<span class="special">节日礼物</span>
+									<span class="special">定期体检</span>
+								</a>
+							</div>
+						</div>
+						<div class="mainItem">
+							<div class="items">
+								<a href="#">
+									<h2>卓宝计算机</h2>
+									<div class="itemsPic">
+										<img src="img/e802e0078d194e76afbb7abb102af275.jpg" />
+										<div class="cover">
+											<ul>
+												<li>移动互联网,视频多媒体</li>
+												<li>上海,B轮</li>
+											</ul>
+										</div>
+									</div>
+									<div class="companyJob">
+										<a href="#" class="job">对日Window C++软件工程师</a>
+										<a href="#" class="job">日语韩语软件测试</a>
+										<a href="#" class="job">嵌入式C/C++初级软件工程师(常驻世界500强日企)</a>
+										<a href="#" class="job">对日C/C++资深软件开发(长期派驻知名世界500强日企)</a>
+									</div>
+									<span class="special">B轮</span>
+									<span class="special">移动互联网</span>
+									<span class="special">视频多媒体</span>
+									<span class="special">五险一金</span>
+									<span class="special">弹性工作</span>
+									<span class="special">年度旅游</span>
+								</a>
+							</div>
+							<div class="items">
+								<a href="#">
+									<h2>中科蓝鲸</h2>
+									<div class="itemsPic">
+										<img src="img/329b56ef443c4ae2a2024955f58705f8.jpg" />
+										<div class="cover">
+											<ul>
+												<li>云计算,大数据</li>
+												<li>北京,D轮及以上</li>
+											</ul>
+										</div>
+									</div>
+									<div class="companyJob">
+										<a href="#" class="job">人力资源部</a>
+										<a href="#" class="job">PHP</a>
+									</div>
+									<span class="special">D轮及以上</span>
+									<span class="special">云计算/大数据</span>
+									<span class="special">绩效奖金</span>
+									<span class="special">股票期权</span>
+									<span class="special">五险一金</span>
+									<span class="special">交通津贴</span>
+								</a>
+							</div>
+							<div class="items">
+								<a href="#">
+									<h2>杭州瓷肌</h2>
+									<div class="itemsPic">
+										<img src="img/451a3ab87bb149a5b0779baf81f0a667.jpg" />
+										<div class="cover">
+											<ul>
+												<li>电子商务</li>
+												<li>杭州,B轮</li>
+											</ul>
+										</div>
+									</div>
+									<div class="companyJob">
+										<a href="#" class="job">视觉设计经理</a>
+										<a href="#" class="job">招聘</a>
+										<a href="#" class="job">视觉设计师</a>
+									</div>
+									<span class="special">B轮</span>
+									<span class="special">电子商务</span>
+									<span class="special">五险一金</span>
+									<span class="special">带薪年假</span>
+									<span class="special">节日礼物</span>
+									<span class="special">定期体检</span>
+								</a>
+							</div>
+						</div>
+					</div>
+					<!--End LeftMain-->
+					<!--页码Page-->
+					<div class="page">
+						<ul>
+							<li><a href="#">首页</a></li>
+							<li><a href="#">上一页</a></li>
+							<li class="active"><a href="#">1</a></li>
+							<li><a href="#">2</a></li>
+							<li><a href="#">3</a></li>
+							<li><a href="#">4</a></li>
+							<li><a href="#">5</a></li>
+							<li><a href="#">下一页</a></li>
+							<li><a href="#">尾页</a></li>
+						</ul>
+					</div>
+					<!--End Page-->
+				</div>
+				<!--End LeftContent-->
+				<!--RightContent 右侧边栏-->
+				<div class="rightContent">
+					<div class="orderJob">
+						<h2><span class="order">订阅</span>职位</h2>
+						<p>拉勾网会根据你的筛选条件，定期将符合你要求的职位信息发给你</p>
+						<p class="count">
+							已有
+							<span>3</span>
+							<span>4</span>
+							<span>2</span>
+							<span>1</span>
+							<span>0</span> 订阅
+						</p>
+						<p><a href="#" class="myOrder">我也要订阅职位</a></p>
+					</div>
+					<div class="screen">
+						<img src="img/companylist_qr.png" />
+						<p>扫描拉勾二维码，微信轻松搜工作</p>
+					</div>
+					<div class="advertImg">
+						<img src="img/subject280.jpg" />
+						<img src="img/rising280.png" />
+					</div>
+				</div>
+				<!--End RightContent-->
+			</div>
+			<!--End Container-->
+			<!--返回顶部-->
+			<span id="returnBack"></span>
+			<!--Bottom-->
+			<div id="bottom">
+				<hr />
+				<ul>
+					<li>联系我们</li>
+					<li>互联网公司导航</li>
+					<li>拉勾微博</li>
+					<li>拉勾微信
+						<div class="weixin">
+							<img src="img/companylist_qr.png" />
+						</div>
+					</li>
+				</ul>
+				<div class="webInfo">
+					<span>2013-2015 Lagou 京ICP备14023790号-2</span>
+				</div>
+			</div>
+			<!--End Bottom-->
+		</div>
+		<!--End Wrapper-->
+	</body>
+
+</html>

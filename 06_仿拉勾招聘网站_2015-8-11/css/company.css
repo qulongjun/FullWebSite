@@ -1,0 +1,361 @@
+#container {
+	width: 55%;
+	margin: 0 auto;
+	margin-bottom: 35px;
+	height: 100%;
+	overflow: hidden;
+}
+#container .leftContent {
+	width: 70%;
+	height: 100%;
+	float: left;
+}
+#container .rightContent {
+	width: 25%;
+	height: 100%;
+	float: right;
+}
+#container .rightContent .orderJob {
+	width: 90%;
+	padding: 0 5%;
+	background: rgba(0, 0, 0, 0) url("img/subscribe_bg.jpg") repeat scroll 0 0;
+	border-bottom: 3px solid #dadada;
+	border-top: 3px solid #747778;
+	overflow: hidden;
+}
+#container .rightContent .orderJob h2 {
+	font-size: 1.25em;
+	color: #555555;
+	margin-bottom: 15px;
+	margin-top: 25px;
+}
+#container .rightContent .orderJob h2 .order {
+	font-size: 2.87em;
+	margin-left: 15px;
+}
+#container .rightContent .orderJob p,
+#container .rightContent .screen p {
+	color: #777777;
+	font-size: 0.9em;
+	line-height: 1.5em;
+	margin-left: 10px;
+}
+#container .rightContent .orderJob .count {
+	color: #777;
+	font-size: 1.125em;
+	margin: 15px 0 0;
+}
+#container .rightContent .orderJob .count span {
+	background: #fff none repeat scroll 0 0;
+	border: 2px solid #93b7bb;
+	border-radius: 4px;
+	color: #555;
+	font-size: 20px;
+	margin: 0 1px;
+	padding: 0 2px;
+}
+#container .rightContent .orderJob .myOrder {
+	color: #333;
+	float: right;
+	font-size: 20px;
+	font-style: normal;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	text-decoration: underline;
+	white-space: nowrap;
+}
+#container .rightContent .screen {
+	width: 100%;
+	text-align: center;
+	margin-top: 20px;
+	background: #fafafa none repeat scroll 0 0;
+}
+#container .rightContent .screen img {
+	width: 100%;
+}
+#container .rightContent .advertImg {
+	margin-top: 20px;
+	width: 100%;
+}
+#container .rightContent .advertImg img {
+	margin-bottom: 20px;
+	width: 100%;
+}
+#container .leftContent .placeNav {
+	width: 100%;
+	text-align: right;
+}
+#container .leftContent .placeNav .showPlace li {
+	display: inline-block;
+	border-right: 2px solid #555555;
+	padding: 0 5px;
+}
+#container .leftContent .placeNav .showPlace li:last-of-type {
+	border: none;
+}
+#container .leftContent .placeNav .showPlace .down {
+	display: inline-block;
+	background: url(img/s_drop.png);
+	width: 14px;
+	height: 9px;
+}
+#container .leftContent .placeNav .showPlace li .active {
+	animation: dowm 0.4s;
+	animation-fill-mode: forwards;
+}
+@keyframes dowm {
+	to {
+		transform: rotate(180deg);
+	}
+}
+#container .leftContent .placeNav li a {
+	color: #555555;
+	text-decoration: none;
+	padding: 2px 5px;
+	font-size: 0.9em;
+}
+#container .leftContent .placeNav .showPlace li a:hover {
+	background: #0d9572 none repeat scroll 0 0;
+	color: #FFFFFF;
+}
+#container .leftContent .otherPlaceNav {
+	position: absolute;
+	display: none;
+	float: right;
+	overflow: hidden;
+	border: 2px solid #c9cbce;
+	margin-top: 15px;
+	background: rgb(255, 255, 255);
+	z-index: 5;
+}
+#container .leftContent .otherPlaceNav dl {
+	overflow: hidden;
+	margin: 3px 0;
+	font-size: 0.9em;
+}
+#container .leftContent .otherPlaceNav dl dt {
+	text-align: left;
+	width: 10%;
+	float: left;
+	margin: 3px 0;
+	padding: 0 5%;
+	color: #019875;
+}
+#container .leftContent .otherPlaceNav dl dd {
+	float: right;
+	width: 80%;
+	text-align: left;
+}
+#container .leftContent .otherPlaceNav dl dd li {
+	display: inline-block;
+	background: #fafafa;
+	height: 28px;
+	margin: 3px;
+	text-align: center;
+	width: 66px;
+	line-height: 28px;
+}
+#container .leftContent .otherPlaceNav dl dd li:hover {
+	background: #019875;
+}
+#container .leftContent .otherPlaceNav dl dd li:hover a {
+	color: rgb(255, 255, 255);
+}
+#container .leftContent .companyType {
+	margin-top: 10px;
+	width: 90%;
+	background: #fafafa none repeat scroll 0 0;
+	padding: 20px 5%;
+}
+#container .leftContent .companyType dl {
+	width: 100%;
+	overflow: hidden;
+	font-size: 0.9em;
+}
+#container .leftContent .companyType dl dt {
+	width: 10%;
+	float: left;
+	font-weight: bold;
+	margin-top: 5px;
+}
+#container .leftContent .companyType dl dd {
+	width: 90%;
+	float: right;
+}
+#container .leftContent .companyType dl dd li {
+	display: inline-block;
+	margin: 0 10px 20px 0;
+	padding: 5px 8px;
+}
+#container .leftContent .companyType dl dd li:hover {
+	background: #0d9572 none repeat scroll 0 0;
+}
+#container .leftContent .companyType dl dd li:hover a {
+	color: #FFFFFF;
+}
+#container .leftContent .companyType dl dd li a {
+	color: #555;
+	text-decoration: none;
+	white-space: nowrap;
+}
+#container .leftContent .leftMain {
+	width: 100%;
+}
+#container .leftContent .leftMain .mainItem {
+	width: 100%;
+	text-align: center;
+	margin-top: 20px;
+}
+#container .leftContent .leftMain .mainItem .items {
+	width: 30%;
+	padding: 1%;
+	display: inline-block;
+	text-align: left;
+	background: #fafafa none repeat scroll 0 0;
+	border: 2px solid rgb(255, 255, 255);
+	vertical-align: top;
+}
+#container .leftContent .leftMain .mainItem .items:hover {
+	background: #fafafa url(img/hc_list_bg_curr.gif) repeat-x scroll left bottom;
+	border-color: rgba(0, 0, 0, 0.3);
+	border-bottom-color: rgb(255, 255, 255);
+}
+#container .leftContent .leftMain .mainItem .items h2 {
+	font-size: 0.9em;
+	padding-bottom: 10px;
+}
+#container .leftContent .leftMain .mainItem .items a {
+	color: #555;
+	text-decoration: none;
+}
+#container .leftContent .leftMain .mainItem .items img {
+	position: relative;
+	width: 100%;
+}
+#container .leftContent .leftMain .mainItem .items .itemsPic {
+	position: relative;
+}
+#container .leftContent .leftMain .mainItem .items .cover {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	color: #FFFFFF;
+	background-color: rgba(0, 0, 0, 0.5);
+	overflow: hidden;
+	width: 100%;
+	font-size: 0.9em;
+}
+#container .leftContent .leftMain .mainItem .items .cover ul {
+	list-style: disc;
+	padding: 10px 20px;
+}
+#container .leftContent .leftMain .mainItem .items .companyJob {
+	padding: 10px 0;
+	border-bottom: 1px dashed rgba(0, 0, 0, 0.5);
+	margin-bottom: 10px;
+}
+#container .leftContent .leftMain .mainItem .items .companyJob .job {
+	display: block;
+	font-size: 0.9em;
+	line-height: 1.3em;
+}
+#container .leftContent .leftMain .mainItem .items .special {
+	border: 1px solid rgba(0, 0, 0, 0.3);
+	display: inline-block;
+	margin-bottom: 5px;
+	padding: 2px;
+	font-size: 0.9em;
+}
+#container .leftContent .page {
+	margin-top: 50px;
+	width: 100%;
+}
+#container .leftContent .page ul {
+	width: 100%;
+	padding-left: 1%;
+}
+#container .leftContent .page ul li {
+	display: inline-block;
+	background: #91cebe none repeat scroll 0 0;
+	padding: 5px 10px;
+	cursor: pointer;
+}
+#container .leftContent .page ul .active {
+	background: #009875 none repeat scroll 0 0;
+}
+#container .leftContent .page ul li a {
+	color: rgb(255, 255, 255);
+	text-decoration: none;
+}
+
+@media only screen and (max-width: 1785px) {
+	#container .leftContent .companyType dl dt {
+		width: 15%;
+	}
+	#container .leftContent .companyType dl dd {
+		width: 85%;
+	}
+}
+@media only screen and (max-width: 1470px) {
+	#header,
+	#container {
+		width: 60%;
+	}
+}
+@media only screen and (max-width: 1340px) {
+	#header,
+	#container {
+		width: 65%;
+	}
+}
+@media only screen and (max-width: 1240px) {
+	#header,
+	#container {
+		width: 70%;
+	}
+}
+@media only screen and (max-width: 1150px) {
+	#header,
+	#container {
+		width: 100%;
+	}
+}
+@media only screen and (max-width: 810px) {
+	#container .leftContent .placeNav .showPlace {
+		text-align: left;
+	}
+	#container .leftContent .placeNav .showPlace li {
+		padding: 0;
+	}
+	#container .leftContent .leftMain .mainItem .items {
+		width: 25%;
+	}
+	#container .rightContent {
+		width: 30%;
+		margin: 0;
+	}
+	/*#top .topBar li {
+		margin-right: 5px;
+		font-size: 1em;
+	}*/
+	#container .leftContent .page ul li {
+		padding: 5px 5px;
+	}
+}
+@media only screen and (max-width: 500px) {
+	/*#top .topBar li {
+		margin-right: 0;
+	}*/
+	/*#top .loginBtn a {
+		display: block;
+	}*/
+	#container .leftContent .mainItem .items .cover {
+		display: none;
+	}
+	#container .rightContent .orderJob .myOrder {
+		font-size: 0.9em;
+	}
+	#container .leftContent .page ul li {
+		padding: 1px;
+	}
+}
