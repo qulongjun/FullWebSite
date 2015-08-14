@@ -1,0 +1,702 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title>我的简历-拉勾网-最专业的互联网招聘平台</title>
+		<link rel="stylesheet" type="text/css" href="css/cssReset.min.css" />
+		<link rel="stylesheet" type="text/css" href="css/top.min.css" />
+		<link rel="stylesheet" type="text/css" href="css/bottom.min.css" />
+		<link rel="stylesheet" type="text/css" href="css/resume.min.css"/>
+		<script src="js/jquery-1.11.3.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/gotoTop.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/resume.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/radialIndicator.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+
+	<body>
+		<!--wrapper-->
+		<div id="wrapper">
+			<!--Header-->
+			<div id="header">
+				<!--Top-->
+				<div id="top">
+					<img src="img/logo.png" />
+					<ul class="topBar">
+						<li>首页</li>
+						<li>公司</li>
+						<li class="active">我的简历</li>
+						<li>发布职位</li>
+					</ul>
+					<div class="loginBtn">
+						<a href="#">注册</a>
+						<a href="login.html">登录</a>
+					</div>
+				</div>
+				<!--end Top-->
+			</div>
+			<!--end Header-->
+			<!--Container-->
+			<div id="container">
+				<!--LeftContent 左侧边栏-->
+				<div class="leftContent">
+					<div class="resumeName">
+						<h2>瞿龙俊的简历</h2>
+						<input type="text" name="" value="" id="name" />
+						<a href="#" class="save">保存</a>
+						<a href="#" class="rename">重命名</a>|
+						<a href="#">预览</a>
+						<p>最后一次更新：<span class="updateTime">2015-08-13 14:14</span></p>
+					</div>
+					<div class="resumeSchedule">
+						<div class="circleSchedule"></div>
+						<div class="scheduleInfo">
+							<div class="info">
+								<p>工作经历最能体现自己的工作能力,且完善后才可投递简历哦！</p>
+								<a href="#">马上去完善</a>
+							</div>
+						</div>
+					</div>
+					<div class="baseInfo">
+						<span class="changePen"></span>
+						<div class="infoContent">
+							<h2>基本信息</h2>
+							<span id="youName">瞿龙俊</span>|<span id="sex">男</span>|<span id="education">硕士</span>|<span id="experience">3年</span>工作经验
+							<br />
+							<span id="tel">18014044444</span>|<span id="email">qulongjun12@163.com</span>
+							<br />
+							<span id="state">我是应届毕业生</span>
+						</div>
+						<div class="headPic">
+							<img src="img/default_headpic.png" />
+							<div class="cover">
+							</div>
+						</div>
+					</div>
+					<div class="baseInfo change hopeWork">
+						<h2>基本信息</h2>
+						<div class="infoChange">
+							<input type="text" placeholder="姓名" id="nameChange" value="瞿龙俊" />
+							<ul>
+								<li>
+									男
+									<span class="check"></span>
+									<input type="radio" name="sex" id="boy" value="男" />
+								</li>
+								<li>
+									女
+									<span class="check"></span>
+									<input type="radio" name="sex" id="girl" value="女" />
+								</li>
+							</ul>
+							<br />
+							<select class="educationChange">
+								<option>大专</option>
+								<option>本科</option>
+								<option>硕士</option>
+								<option>博士</option>
+								<option>其他</option>
+							</select>
+							<select class="educationChange">
+								<option>应届毕业生</option>
+								<option>1年</option>
+								<option>2年</option>
+								<option>3年</option>
+								<option>4年</option>
+								<option>5年</option>
+								<option>6年</option>
+								<option>7年</option>
+								<option>8年</option>
+								<option>9年</option>
+								<option>10年</option>
+								<option>10年以上</option>
+							</select>
+							<br />
+							<input type="tel" placeholder="电话号码" id="" value="" />
+							<br />
+							<input type="email" placeholder="接收面试通知的邮箱" id="" value="" />
+							<br />
+							<select class="stateChange">
+								<option>我目前已离职，可快速到岗</option>
+								<option>我目前正在职，正考虑换个工作</option>
+								<option>我暂时不想找工作</option>
+								<option>我是应届毕业生</option>
+							</select>
+							<br />
+							<a href="#" class="infoSave">保存</a>
+							<a href="#" class="cancel">取消</a>
+						</div>
+						<div class="headPicChange">
+							<img src="img/default_headpic.png" />
+							<div class="cover"><a href="#">点击上传</a>
+							</div>
+						</div>
+					</div>
+					<div class="wishWork hopeWork">
+						<h2>期望工作</h2>
+						<div class="itemInfo">
+							<span>填写准确的期望工作能大大提高求职成功率哦</span>
+							<br />
+							<span>快来添加期望工作吧</span>
+							<br />
+							<span><a href="#">添加期望工作</a></span>
+						</div>
+					</div>
+					<div class="wishWork change hopeWorkChange">
+						<h2>期望工作</h2>
+						<div class="infoChange">
+							<input type="text" placeholder="期望城市，如：北京" name="" id="wishCity" value="" />
+							<ul>
+								<li>
+									全职
+									<span class="check"></span>
+									<input type="radio" name="workType" id="" value="全职" />
+								</li>
+								<li>
+									兼职
+									<span class="check"></span>
+									<input type="radio" name="workType" id="" value="兼职" />
+								</li>
+								<li>
+									实习
+									<span class="check"></span>
+									<input type="radio" name="workType" id="" value="实习" />
+								</li>
+							</ul>
+							<input type="text" name="" class="wishJob" placeholder="期望职位，如：产品经理" id="" value="" />
+							<select placeholder="期望月薪" class="wishPay">
+								<option>2K以下</option>
+								<option>2K-5K</option>
+								<option>5K-10K</option>
+								<option>10K-15K</option>
+								<option>15K-25K</option>
+								<option>25K-50K</option>
+								<option>50K以上</option>
+							</select>
+							<br />
+							<a href="#" class="hopeWorkSave">保存</a>
+							<a href="#" class="hopeWorkCancel">取消</a>
+						</div>
+					</div>
+					<div class="wishWork workExperience">
+						<h2>工作经历（投递简历时必填）</h2>
+						<div class="itemInfo">
+							<span>工作经历最能体现自己的工作能力，</span>
+							<br />
+							<span>且完善后才可投简历哦！</span>
+							<br />
+							<span><a href="#">添加工作经历</a></span>
+						</div>
+					</div>
+					<div class="wishWork change workExperienceChange">
+						<h2>工作经历（投递简历时必填）</h2>
+						<div class="infoChange">
+							<input type="text" name="" placeholder="公司名称" id="companyName" value="" />
+							<input type="text" name="" placeholder="职位名称：如产品经理" id="jobName" value="" />
+							<select class="startYear">
+								<option selected="selected">开始年份</option>
+								<option>2015</option>
+								<option>2014</option>
+								<option>2013</option>
+								<option>2012</option>
+								<option>2011</option>
+								<option>2010</option>
+								<option>2009</option>
+								<option>2008</option>
+								<option>2007</option>
+								<option>2006</option>
+								<option>2005</option>
+								<option>2004</option>
+								<option>2003</option>
+								<option>2002</option>
+								<option>2001</option>
+								<option>2000</option>
+								<option>1999</option>
+								<option>1998</option>
+								<option>1997</option>
+								<option>1996</option>
+								<option>1995</option>
+								<option>1994</option>
+								<option>1993</option>
+								<option>1992</option>
+								<option>1991</option>
+								<option>1990</option>
+								<option>1989</option>
+								<option>1988</option>
+								<option>1987</option>
+								<option>1986</option>
+								<option>1985</option>
+								<option>1984</option>
+								<option>1983</option>
+								<option>1982</option>
+								<option>1981</option>
+								<option>1980</option>
+								<option>1979</option>
+								<option>1978</option>
+								<option>1977</option>
+								<option>1976</option>
+								<option>1975</option>
+								<option>1974</option>
+								<option>1973</option>
+								<option>1972</option>
+								<option>1971</option>
+								<option>1970</option>
+							</select>
+							<select class="startMonth">
+								<option selected="selected">开始月份</option>
+								<option>01</option>
+								<option>02</option>
+								<option>03</option>
+								<option>04</option>
+								<option>05</option>
+								<option>06</option>
+								<option>07</option>
+								<option>08</option>
+								<option>09</option>
+								<option>10</option>
+								<option>11</option>
+								<option>12</option>
+							</select>
+
+							<select class="endYear">
+								<option selected="selected">结束年份</option>
+								<option>2015</option>
+								<option>2014</option>
+								<option>2013</option>
+								<option>2012</option>
+								<option>2011</option>
+								<option>2010</option>
+								<option>2009</option>
+								<option>2008</option>
+								<option>2007</option>
+								<option>2006</option>
+								<option>2005</option>
+								<option>2004</option>
+								<option>2003</option>
+								<option>2002</option>
+								<option>2001</option>
+								<option>2000</option>
+								<option>1999</option>
+								<option>1998</option>
+								<option>1997</option>
+								<option>1996</option>
+								<option>1995</option>
+								<option>1994</option>
+								<option>1993</option>
+								<option>1992</option>
+								<option>1991</option>
+								<option>1990</option>
+								<option>1989</option>
+								<option>1988</option>
+								<option>1987</option>
+								<option>1986</option>
+								<option>1985</option>
+								<option>1984</option>
+								<option>1983</option>
+								<option>1982</option>
+								<option>1981</option>
+								<option>1980</option>
+								<option>1979</option>
+								<option>1978</option>
+								<option>1977</option>
+								<option>1976</option>
+								<option>1975</option>
+								<option>1974</option>
+								<option>1973</option>
+								<option>1972</option>
+								<option>1971</option>
+								<option>1970</option>
+							</select>
+							<select class="endMonth">
+								<option selected="selected">结束月份</option>
+								<option>01</option>
+								<option>02</option>
+								<option>03</option>
+								<option>04</option>
+								<option>05</option>
+								<option>06</option>
+								<option>07</option>
+								<option>08</option>
+								<option>09</option>
+								<option>10</option>
+								<option>11</option>
+								<option>12</option>
+							</select>
+							<br />
+							<a href="#" class="workExperienceSave">保存</a>
+							<a href="#" class="workExperienceCancel">取消</a>
+						</div>
+					</div>
+					<div class="wishWork projectExperience">
+						<h2>项目经验</h2>
+						<div class="itemInfo">
+							<span>项目经验是用人单位衡量人才能力的重要指标哦！</span>
+							<br />
+							<span>来说说让你难忘的项目吧！</span>
+							<br />
+							<span><a href="#">添加项目经验</a></span>
+						</div>
+					</div>
+					<div class="wishWork change projectExperienceChange">
+						<h2>项目经验</h2>
+						<div class="infoChange">
+							<input type="text" name="" id="projectName" placeholder="项目名称" value="" />
+							<input type="text" name="" id="projectJob" placeholder="担任职务，如：产品负责人" value="" />
+							<br />
+							<select class="startYear">
+								<option selected="selected">开始年份</option>
+								<option>2015</option>
+								<option>2014</option>
+								<option>2013</option>
+								<option>2012</option>
+								<option>2011</option>
+								<option>2010</option>
+								<option>2009</option>
+								<option>2008</option>
+								<option>2007</option>
+								<option>2006</option>
+								<option>2005</option>
+								<option>2004</option>
+								<option>2003</option>
+								<option>2002</option>
+								<option>2001</option>
+								<option>2000</option>
+								<option>1999</option>
+								<option>1998</option>
+								<option>1997</option>
+								<option>1996</option>
+								<option>1995</option>
+								<option>1994</option>
+								<option>1993</option>
+								<option>1992</option>
+								<option>1991</option>
+								<option>1990</option>
+								<option>1989</option>
+								<option>1988</option>
+								<option>1987</option>
+								<option>1986</option>
+								<option>1985</option>
+								<option>1984</option>
+								<option>1983</option>
+								<option>1982</option>
+								<option>1981</option>
+								<option>1980</option>
+								<option>1979</option>
+								<option>1978</option>
+								<option>1977</option>
+								<option>1976</option>
+								<option>1975</option>
+								<option>1974</option>
+								<option>1973</option>
+								<option>1972</option>
+								<option>1971</option>
+								<option>1970</option>
+							</select>
+							<select class="startMonth">
+								<option selected="selected">开始月份</option>
+								<option>01</option>
+								<option>02</option>
+								<option>03</option>
+								<option>04</option>
+								<option>05</option>
+								<option>06</option>
+								<option>07</option>
+								<option>08</option>
+								<option>09</option>
+								<option>10</option>
+								<option>11</option>
+								<option>12</option>
+							</select>
+
+							<select class="endYear">
+								<option selected="selected">结束年份</option>
+								<option>2015</option>
+								<option>2014</option>
+								<option>2013</option>
+								<option>2012</option>
+								<option>2011</option>
+								<option>2010</option>
+								<option>2009</option>
+								<option>2008</option>
+								<option>2007</option>
+								<option>2006</option>
+								<option>2005</option>
+								<option>2004</option>
+								<option>2003</option>
+								<option>2002</option>
+								<option>2001</option>
+								<option>2000</option>
+								<option>1999</option>
+								<option>1998</option>
+								<option>1997</option>
+								<option>1996</option>
+								<option>1995</option>
+								<option>1994</option>
+								<option>1993</option>
+								<option>1992</option>
+								<option>1991</option>
+								<option>1990</option>
+								<option>1989</option>
+								<option>1988</option>
+								<option>1987</option>
+								<option>1986</option>
+								<option>1985</option>
+								<option>1984</option>
+								<option>1983</option>
+								<option>1982</option>
+								<option>1981</option>
+								<option>1980</option>
+								<option>1979</option>
+								<option>1978</option>
+								<option>1977</option>
+								<option>1976</option>
+								<option>1975</option>
+								<option>1974</option>
+								<option>1973</option>
+								<option>1972</option>
+								<option>1971</option>
+								<option>1970</option>
+							</select>
+							<select class="endMonth">
+								<option selected="selected">结束月份</option>
+								<option>01</option>
+								<option>02</option>
+								<option>03</option>
+								<option>04</option>
+								<option>05</option>
+								<option>06</option>
+								<option>07</option>
+								<option>08</option>
+								<option>09</option>
+								<option>10</option>
+								<option>11</option>
+								<option>12</option>
+							</select>
+							<br />
+							<textarea id="projectDesc" name="" rows="8" cols="" placeholder="项目描述"></textarea>
+							<br />
+							<a href="#" class="projectExperienceSave">保存</a>
+							<a href="#" class="projectExperienceCancel">取消</a>
+						</div>
+					</div>
+
+					<div class="wishWork educationBackground">
+						<h2>教育背景（投递简历时必填）</h2>
+						<div class="itemInfo">
+							<span>教育背景可以充分体现你的学习和专业能力，</span>
+							<br />
+							<span>且完善后才可投简历哦！</span>
+							<br />
+							<span><a href="#">添加教育经历</a></span>
+						</div>
+					</div>
+					<div class="wishWork change educationBackgroundChange">
+						<h2>教育背景（投递简历时必填）</h2>
+						<div class="infoChange">
+							<input type="text" placeholder="学校名称" name="SchoolName" id="SchoolName" value="" />
+							<select class="educationPosition">
+								<option selected="selected">学历</option>
+								<option>大专</option>
+								<option>本科</option>
+								<option>硕士</option>
+								<option>博士</option>
+								<option>其他</option>
+							</select>
+							<input type="text" placeholder="专业名称" name="majorName" id="majorName" value="" />
+							<select class="startYear">
+								<option selected="selected">开始年份</option>
+								<option>2015</option>
+								<option>2014</option>
+								<option>2013</option>
+								<option>2012</option>
+								<option>2011</option>
+								<option>2010</option>
+								<option>2009</option>
+								<option>2008</option>
+								<option>2007</option>
+								<option>2006</option>
+								<option>2005</option>
+								<option>2004</option>
+								<option>2003</option>
+								<option>2002</option>
+								<option>2001</option>
+								<option>2000</option>
+								<option>1999</option>
+								<option>1998</option>
+								<option>1997</option>
+								<option>1996</option>
+								<option>1995</option>
+								<option>1994</option>
+								<option>1993</option>
+								<option>1992</option>
+								<option>1991</option>
+								<option>1990</option>
+								<option>1989</option>
+								<option>1988</option>
+								<option>1987</option>
+								<option>1986</option>
+								<option>1985</option>
+								<option>1984</option>
+								<option>1983</option>
+								<option>1982</option>
+								<option>1981</option>
+								<option>1980</option>
+								<option>1979</option>
+								<option>1978</option>
+								<option>1977</option>
+								<option>1976</option>
+								<option>1975</option>
+								<option>1974</option>
+								<option>1973</option>
+								<option>1972</option>
+								<option>1971</option>
+								<option>1970</option>
+							</select>
+							<select class="endYear">
+								<option selected="selected">结束年份</option>
+								<option>2015</option>
+								<option>2014</option>
+								<option>2013</option>
+								<option>2012</option>
+								<option>2011</option>
+								<option>2010</option>
+								<option>2009</option>
+								<option>2008</option>
+								<option>2007</option>
+								<option>2006</option>
+								<option>2005</option>
+								<option>2004</option>
+								<option>2003</option>
+								<option>2002</option>
+								<option>2001</option>
+								<option>2000</option>
+								<option>1999</option>
+								<option>1998</option>
+								<option>1997</option>
+								<option>1996</option>
+								<option>1995</option>
+								<option>1994</option>
+								<option>1993</option>
+								<option>1992</option>
+								<option>1991</option>
+								<option>1990</option>
+								<option>1989</option>
+								<option>1988</option>
+								<option>1987</option>
+								<option>1986</option>
+								<option>1985</option>
+								<option>1984</option>
+								<option>1983</option>
+								<option>1982</option>
+								<option>1981</option>
+								<option>1980</option>
+								<option>1979</option>
+								<option>1978</option>
+								<option>1977</option>
+								<option>1976</option>
+								<option>1975</option>
+								<option>1974</option>
+								<option>1973</option>
+								<option>1972</option>
+								<option>1971</option>
+								<option>1970</option>
+							</select>
+							<br />
+							<a href="#" class="educationBackgroundSave">保存</a>
+							<a href="#" class="educationBackgroundCancel">取消</a>
+						</div>
+					</div>
+					<div class="wishWork selfDes">
+						<h2>自我描述</h2>
+						<div class="itemInfo">
+							<span>描述你的性格、爱好以及吸引人的经历等，</span>
+							<br />
+							<span>让企业了解多元化的你！</span>
+							<br />
+							<span><a href="#">添加自我描述</a></span>
+						</div>
+					</div>
+					<div class="wishWork change selfDesChange">
+						<h2>自我描述</h2>
+						<div class="infoChange">
+							<textarea name="" id="selfDesText" rows="" cols=""></textarea>
+							<br />
+							<a href="#" class="selfDesSave">保存</a>
+							<a href="#" class="selfDesCancel">取消</a>
+
+						</div>
+					</div>
+					<div class="wishWork workDisplay">
+						<h2>作品展示</h2>
+						<div class="itemInfo">
+							<span>好作品会说话！</span>
+							<br />
+							<span>快来秀出你的作品打动企业吧！</span>
+							<br />
+							<span><a href="#">添加作品展示</a></span>
+						</div>
+					</div>
+					<div class="wishWork change workDisplayChange">
+						<h2>作品展示</h2>
+						<div class="infoChange">
+							<input type="text" placeholder="请输入作品链接" name="" id="workLink" value="" />
+							<textarea name="" id="desWord" rows="" cols=""></textarea>
+							<br />
+							<a href="#" class="workDisplaySave">保存</a>
+							<a href="#" class="workDisplayCancel">取消</a>
+						</div>
+					</div>
+				</div>
+				<!--End LeftContent-->
+				<!--RightContent 右侧边栏-->
+				<div class="rightContent">
+					<div class="rightBox myInfo">
+						<h2>我的信息</h2>
+						<a href="#">我收藏的职位</a>
+						<a href="#">我订阅的职位</a>
+					</div>
+					<div class="rightBox myAttachmentResume">
+						<h2>我的附件简历</h2><span class="rightBtn">上传简历</span>
+						<a href="#">暂无简历附件</a>
+					</div>
+					<div class="rightBox sendResumeSetting">
+						<h2>投递简历设置</h2><span class="rightBtn">修改设置</span>
+						<a href="#">暂未设置默认投递简历</a>
+					</div>
+					<div class="rightBox maxSendResume">
+						<h2>当前每日投递量<span>10</span>个</h2>
+						<a href="#">邀请好友，提升投递量</a>
+					</div>
+					<div class="rightBox screen">
+						<img src="img/companylist_qr.png" />
+						<span>微信扫一扫，轻松找工作</span>
+					</div>
+				</div>
+				<!--End RightContent-->
+			</div>
+			<!--End Container-->
+			<!--返回顶部-->
+			<span id="returnBack"></span>
+			<!--Bottom-->
+			<div id="bottom">
+				<hr />
+				<ul>
+					<li>联系我们</li>
+					<li>互联网公司导航</li>
+					<li>拉勾微博</li>
+					<li>拉勾微信
+						<div class="weixin">
+							<img src="img/companylist_qr.png" />
+						</div>
+					</li>
+				</ul>
+				<div class="webInfo">
+					<span>2013-2015 Lagou 京ICP备14023790号-2</span>
+				</div>
+			</div>
+			<!--End Bottom-->
+		</div>
+		<!--End Wrapper-->
+	</body>
+
+</html>

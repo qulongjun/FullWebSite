@@ -1,0 +1,413 @@
+#container {
+	font-family: "微软雅黑";
+	width: 55%;
+	margin: 0 auto;
+	margin-bottom: 35px;
+	height: 100%;
+	overflow: hidden;
+}
+#container .leftContent {
+	width: 70%;
+	height: 100%;
+	float: left;
+}
+#container .rightContent {
+	width: 25%;
+	height: 100%;
+	float: right;
+}
+#container .rightContent .rightBox {
+	padding: 15px 20px;
+	background: #fafafa none repeat scroll 0 0;
+	margin-bottom: 8px;
+}
+#container .rightContent .rightBox a {
+	font-size: 0.87em;
+	color: #333;
+	display: block;
+	margin-bottom: 5px;
+	clear: both;
+}
+#container .rightContent .rightBox h2 {
+	font-size: 1.125em;
+	font-weight: 600;
+	margin: 0 0 8px;
+	float: left;
+}
+#container .rightContent .rightBox .rightBtn {
+	color: #019875;
+	cursor: pointer;
+	float: right;
+	font-size: 0.87em;
+	text-decoration: none;
+}
+#container .rightContent .screen img {
+	width: 100%;
+	margin-bottom: 10px;
+}
+#container .rightContent .screen {
+	font-size: 0.87em;
+	color: #333;
+	text-align: center;
+}
+#container .leftContent .resumeName {
+	width: 100%;
+}
+#container .leftContent .resumeName h2,
+#container .leftContent .resumeName input[type=text] {
+	font-size: 1.125em;
+	float: left;
+	margin-right: 10px;
+}
+#container .leftContent .resumeName input[type=text] {
+	border: 2px solid #f1f1f1;
+	display: none;
+}
+#container .leftContent .resumeName a {
+	color: #019875;
+	padding: 0 5px;
+	font-size: 0.87em;
+}
+#container .leftContent .resumeName .save {
+	display: none;
+}
+#container .leftContent .resumeName p {
+	float: right;
+	font-size: 0.87em;
+}
+#container .leftContent .resumeSchedule {
+	width: 100%;
+	border: 1px solid green;
+	overflow: hidden;
+	margin: 20px 0;
+}
+#container .leftContent .resumeSchedule .circleSchedule {
+	float: left;
+	width: 30%;
+	height: 154px;
+	text-align: center;
+	background: #fff7e9 none repeat scroll 0 0;
+}
+#container .leftContent .resumeSchedule .circleSchedule canvas {
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+	width: 50%;
+}
+#container .leftContent .resumeSchedule .scheduleInfo {
+	height: 154px;
+	float: right;
+	width: 69%;
+	background: #fff7e9 none repeat scroll 0 0;
+}
+#container .leftContent .resumeSchedule .scheduleInfo .info {
+	position: relative;
+	top: 50%;
+	text-align: center;
+	transform: translateY(-50%);
+	color: #555555;
+	font-size: 0.87em;
+}
+#container .leftContent .resumeSchedule .scheduleInfo .info p {
+	margin-bottom: 5%;
+}
+#container .leftContent .resumeSchedule .scheduleInfo .info a {
+	padding: 10px 30px;
+	color: rgb(255, 255, 255);
+	text-decoration: none;
+	background: #019875;
+}
+#container .leftContent .baseInfo,
+#container .leftContent .wishWork {
+	border: 2px solid #fafafa;
+	width: 100%;
+	background: #fafafa none repeat scroll 0 0;
+	margin-bottom: 20px;
+	padding: 18px;
+	overflow: hidden;
+	position: relative;
+	z-index: 2;
+}
+#container .leftContent .baseInfo h2,
+#container .leftContent .wishWork h2 {
+	background: rgba(0, 0, 0, 0) url(img/profile_square.png) no-repeat scroll 0 3px;
+	font-size: 18px;
+	font-weight: 600;
+	margin: 0 0 10px;
+	padding-left: 20px;
+}
+#container .leftContent .baseInfo .infoContent {
+	margin-left: 10px;
+	float: left;
+}
+#container .leftContent .baseInfo .infoContent span,
+#container .leftContent .wishWork span {
+	color: #555555;
+	display: inline-block;
+	padding: 0 10px;
+	text-align: center;
+	margin-bottom: 10px;
+}
+#container .leftContent .baseInfo .changePen {
+	background: rgba(0, 0, 0, 0) url(img/c_edit.png) no-repeat scroll 0 1px;
+	height: 25px;
+	position: absolute;
+	right: 7px;
+	top: 7px;
+	width: 25px;
+	cursor: pointer;
+}
+#container .leftContent .baseInfo .changePen:hover {
+	background-position: -30px 0;
+}
+#container .leftContent .baseInfo .headPic {
+	float: right;
+	width: 120px;
+	height: 120px;
+	position: relative;
+}
+#container .leftContent .baseInfo .headPic img {
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	overflow: hidden;
+}
+#container .leftContent .baseInfo .headPic .cover {
+	position: absolute;
+	border: 5px solid rgb(255, 255, 255);
+	border-radius: 50%;
+	overflow: hidden;
+	top: -5px;
+	left: -5px;
+	width: 100%;
+	height: 100%;
+}
+#container .leftContent .baseInfo .infoChange,
+#container .leftContent .wishWork .infoChange {
+	width: 60%;
+	float: left;
+	margin-left: 20px;
+}
+#container .leftContent .baseInfo .infoChange input,
+#container .leftContent .baseInfo .infoChange select,
+#container .leftContent .wishWork .infoChange input,
+#container .leftContent .wishWork .infoChange select,
+#container .leftContent .wishWork .infoChange textarea {
+	display: inline-block;
+	font: 1.125em;
+	line-height: 2.25em;
+	border: 2px solid #f1f1f1;
+}
+#container .leftContent .baseInfo .infoChange input[id=nameChange],
+#container .leftContent .wishWork .infoChange input[id=wishCity],
+#container .leftContent .wishWork .infoChange input[id=companyName],
+#container .leftContent .wishWork .infoChange input[id=jobName],
+#container .leftContent .wishWork .infoChange input[id=projectName],
+#container .leftContent .wishWork .infoChange input[id=projectJob],
+#container .leftContent .wishWork .infoChange input[id=SchoolName],
+#container .leftContent .wishWork .infoChange input[id=majorName],
+#container .leftContent .wishWork .infoChange select[class=educationPosition] {
+	width: 166px;
+	height: 36px;
+	padding: 0;
+	float: left;
+}
+#container .leftContent .wishWork .infoChange select[class=educationPosition] {
+	box-sizing: content-box;
+}
+#container .leftContent .baseInfo .infoChange ul,
+#container .leftContent .wishWork .infoChange ul {
+	display: inline-block;
+	float: left;
+}
+#container .leftContent .baseInfo .infoChange ul li,
+#container .leftContent .wishWork .infoChange ul li {
+	position: relative;
+	display: inline-block;
+	background: #fff none repeat scroll 0 0;
+	color: #777;
+	cursor: pointer;
+	height: 36px;
+	line-height: 36px;
+	margin: 0 10px;
+	text-align: center;
+	width: 36px;
+	border: 2px solid #FFFFFF;
+	float: left;
+}
+#container .leftContent .baseInfo .infoChange ul li:first-of-type,
+#container .leftContent .wishWork .infoChange ul li:first-of-type {
+	margin-left: 30px;
+}
+#container .leftContent .baseInfo .infoChange .educationChange,
+#container .leftContent .wishWork .infoChange .wishPay,
+#container .leftContent .wishWork .infoChange .startYear,
+#container .leftContent .wishWork .infoChange .startMonth,
+#container .leftContent .wishWork .infoChange .endYear,
+#container .leftContent .wishWork .infoChange .endMonth {
+	display: inline-block;
+	height: 36px;
+	box-sizing: content-box;
+	width: 166px;
+	margin-top: 20px;
+	margin-right: 30px;
+	clear: both;
+}
+#container .leftContent .wishWork .infoChange .startYear,
+#container .leftContent .wishWork .infoChange .startMonth,
+#container .leftContent .wishWork .infoChange .endYear,
+#container .leftContent .wishWork .infoChange .endMonth {
+	width: 80px;
+	margin-right: 18px;
+}
+#container .leftContent .baseInfo .infoChange input[type=email],
+#container .leftContent .baseInfo .infoChange input[type=tel],
+#container .leftContent .wishWork .infoChange textarea[id=projectDesc],
+#container .leftContent .wishWork .infoChange textarea[id=selfDesText],
+#container .leftContent .wishWork .infoChange input[id=workLink],
+#container .leftContent .wishWork .infoChange textarea[id=desWord] {
+	display: block;
+	width: 366px;
+	margin-top: 20px;
+	height: 36px;
+}
+#container .leftContent .wishWork .infoChange textarea[id=projectDesc],
+#container .leftContent .wishWork .infoChange textarea[id=selfDesText],
+#container .leftContent .wishWork .infoChange textarea[id=desWord] {
+	height: 150px;
+}
+#container .leftContent .baseInfo .infoChange .stateChange {
+	width: 366px;
+	margin-top: 20px;
+	height: 36px;
+	box-sizing: content-box;
+}
+#container .leftContent .baseInfo .infoChange a,
+#container .leftContent .wishWork .infoChange a {
+	display: inline-block;
+	padding: 10px 20px;
+	margin: 20px;
+	text-decoration: none;
+	color: #555555;
+}
+#container .leftContent .baseInfo .infoChange a:first-of-type,
+#container .leftContent .wishWork .infoChange a:first-of-type {
+	color: #FFFFFF;
+	background: #64c0ab none repeat scroll 0 0;
+}
+#container .leftContent .baseInfo .infoChange input[type=radio],
+#container .leftContent .wishWork .infoChange input[type=radio] {
+	opacity: 0;
+}
+#container .leftContent .baseInfo .infoChange .check,
+#container .leftContent .wishWork .infoChange .check {
+	background: rgba(0, 0, 0, 0) url("img/radio_checked.png") no-repeat scroll 0 0;
+	height: 18px;
+	position: absolute;
+	right: -1px;
+	top: -1px;
+	width: 18px;
+	display: none;
+}
+#container .leftContent .wishWork .infoChange .check {
+	width: 18px;
+	right: -21px;
+}
+#container .leftContent .baseInfo .headPicChange {
+	float: right;
+	width: 120px;
+	height: 120px;
+	position: relative;
+}
+#container .leftContent .baseInfo .headPicChange img {
+	border-radius: 0;
+}
+#container .leftContent .baseInfo .headPicChange .cover {
+	text-align: center;
+	border-radius: 0;
+	position: absolute;
+	width: 100%;
+	height: 15%;
+	bottom: 0;
+	background: rgba(0, 0, 0, 0.5);
+}
+#container .leftContent .baseInfo .headPicChange .cover a {
+	color: rgb(255, 255, 255);
+	text-decoration: none;
+}
+#container .leftContent .change {
+	display: none;
+}
+#container .leftContent .wishWork span a {
+	color: #0d9572;
+}
+#container .leftContent .wishWork .itemInfo {
+	background: rgba(0, 0, 0, 0) url("img/profile_add.png") no-repeat scroll 20px 0;
+	cursor: pointer;
+	min-height: 76px;
+	padding: 0 0 0 140px;
+}
+#container .leftContent .wishWork .itemInfo:hover {
+	background-position: 20px -76px;
+}
+#container .leftContent .wishWork .infoChange input[class=wishJob] {
+	width: 166px;
+	height: 36px;
+	padding: 0;
+}
+#container .leftContent .educationBackgroundChange .infoChange {
+	width: 55%;
+}
+#container .leftContent .educationBackgroundChange .infoChange .startYear,
+#container .leftContent .educationBackgroundChange .infoChange .endYear {
+	margin-top: 0;
+	margin-right: 0;
+}
+/*@media only screen and (max-width: 1600px) {
+	#header,
+	#container {
+		width: 70%;
+	}
+}
+@media only screen and (max-width: 1250px) {
+	#header
+	#container {
+		width: 75%;
+	}
+	#top .topBar li {
+		margin-right: 5px;
+		font-size: 1em;
+	}
+}
+
+@media only screen and (max-width: 1100px) {
+	#header,
+	#container {
+		width: 80%;
+	}
+	#container .leftContent .wishWork{
+		width: 100%;
+	}
+}
+@media only screen and (max-width: 1000px){
+	#header,
+	#container {
+		width: 100%;
+	}
+}
+@media only screen and (max-width:900px ) {
+	#top .topBar li {
+		margin-right: 0;
+	}
+}
+@media only screen and (max-width:690px ) {
+	#container .leftContent .baseInfo h2{
+		font-size: 0.9em;
+	}
+	#container .leftContent .wishWork .itemInfo{
+			background: none;
+			padding-left: 20px;
+			
+
+	}
+}*/

@@ -75,3 +75,8 @@
 		display: block;
 	}
 }
+@media only screen and (max-width:1600px ) {
+	#top{
+		/*width: 70%;*/
+	}
+}

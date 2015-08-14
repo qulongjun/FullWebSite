@@ -334,21 +334,11 @@
 		width: 30%;
 		margin: 0;
 	}
-	/*#top .topBar li {
-		margin-right: 5px;
-		font-size: 1em;
-	}*/
 	#container .leftContent .page ul li {
 		padding: 5px 5px;
 	}
 }
 @media only screen and (max-width: 500px) {
-	/*#top .topBar li {
-		margin-right: 0;
-	}*/
-	/*#top .loginBtn a {
-		display: block;
-	}*/
 	#container .leftContent .mainItem .items .cover {
 		display: none;
 	}
