@@ -1,0 +1,269 @@
+#container {
+	width: 55%;
+	margin: 0 auto;
+	margin-bottom: 35px;
+	height: 100%;
+	overflow: hidden;
+}
+#container .leftContent {
+	width: 70%;
+	height: 100%;
+	float: left;
+	background: #fafafa none repeat scroll 0 0;
+}
+#container .rightContent {
+	width: 25%;
+	height: 100%;
+	float: right;
+}
+#container .rightContent dt .logo {
+	width: 80px;
+	height: 80px;
+	border: 2px solid #91cebe;
+	margin-bottom: -2px;
+}
+#container .rightContent dt img,
+#container .rightContent dt h2 {
+	display: inline-block;
+}
+#container .rightContent dt {
+	background: rgba(0, 0, 0, 0) url("img/breakline.gif") repeat-x scroll center bottom;
+	margin-bottom: 10px;
+	padding-bottom: 25px;
+	position: relative;
+}
+#container .rightContent span {
+	color: #777;
+	line-height: 25px;
+	margin: 0 0 5px;
+	font-size: 0.9em;
+}
+#container .rightContent .title {
+	background: #fafafa none repeat scroll 0 0;
+	color: #333;
+	margin-right: 8px;
+	padding: 0 6px;
+}
+#container .rightContent h3 {
+	margin: 20px 0;
+	margin-bottom: 5px;
+	font-size: 0.9em;
+}
+#container .rightContent .map {
+	height: 200px;
+	width: 100%;
+}
+#container .rightContent a {
+	color: #555555;
+	text-decoration: none;
+}
+#container .rightContent .showMap {
+	text-align: center;
+}
+#container .rightContent .maySuitJob {
+	margin-bottom: 50px;
+}
+#container .rightContent .suitChoose li {
+	position: relative;
+	border-top: 1px dashed #e5e5e5;
+	padding: 10px 0;
+	cursor: pointer;
+}
+#container .rightContent .suitChoose li:last-of-type {
+	border-bottom: 1px dashed #e5e5e5;
+}
+#container .rightContent .suitNum {
+	position: absolute;
+	right: 0;
+	top: 15px;
+	font-size: 1.25em;
+	color: crimson;
+}
+#container .rightContent .suitChoose li:hover .jobName {
+	color: #019875;
+}
+#container .rightContent .maySuitJob a {
+	float: right;
+	display: inline-block;
+	margin-top: 10px;
+	color: #019875;
+	font-size: 0.9em;
+}
+#container .rightContent .advert {
+	width: 100%;
+}
+#container h1 {
+	background: #91cebe none repeat scroll 0 0;
+	color: #fff;
+	float: left;
+	font-size: 30px;
+	margin: -6px 0 10px 35px;
+	padding: 10px 20px;
+	position: absolute;
+}
+#container h1 .leftCompanyName {
+	font-size: 14px;
+	font-weight: normal;
+	line-height: 14px;
+	margin: 0 0 10px -5px;
+}
+#container h1 span {
+	background: rgba(0, 0, 0, 0) url("img/title_arrow.png") no-repeat scroll 0 0;
+	height: 8px;
+	margin: -10px 0 0 -26px;
+	position: absolute;
+	width: 6px;
+}
+#container .collection {
+	background: rgba(0, 0, 0, 0) url("img/collection_icon.png") no-repeat scroll 0 0;
+	cursor: pointer;
+	float: right;
+	height: 71px;
+	position: relative;
+	right: 50px;
+	width: 48px;
+}
+#container .leftContent .advertDetail {
+	margin-top: 100px;
+	border-bottom: 1px solid #e5e5e5;
+	padding-left: 30px;
+}
+#container .leftContent .advertDetail span,
+#container .leftContent .advertDetail p {
+	background: rgba(0, 0, 0, 0) url("img/jd_icon.png") no-repeat scroll left center;
+	padding-left: 20px;
+	color: #777777;
+	font-size: 20px;
+	line-height: 40px;
+	margin-right: 5px;
+}
+#container .leftContent .advertDetail p {
+	background: none;
+	padding-left: 0;
+}
+#container .leftContent .advertDetail p:last-of-type,
+#container .leftContent .advertDetail p:last-of-type span {
+	font-size: 0.9em;
+	background: none;
+	padding-left: 0;
+}
+#container .leftContent .jobDesc {
+	color: #777;
+	padding: 30px 35px 10px;
+	word-wrap: break-word;
+}
+#container .leftContent .jobDesc h2 {
+	border-left: 7px solid #91cebe;
+	color: #555;
+	font-size: 16px;
+	line-height: 16px;
+	margin-bottom: 20px;
+	padding: 2px 0 0 7px;
+}
+#container .leftContent .jobDesc h3 {
+	font-weight: 600;
+	font-size: 0.9em;
+}
+#container .leftContent .jobDesc ol {
+	list-style-type: decimal;
+	padding-left: 20px;
+	padding-top: 10px;
+	font-size: 0.9em;
+	margin-bottom: 30px;
+}
+#container .leftContent .jobDesc ol li {
+	padding-bottom: 5px;
+}
+#container .leftContent .myPaper {
+	width: 100%;
+	background: #E5E5E5;
+	overflow: hidden;
+	padding: 10px 0;
+	height: 50px;
+}
+#container .leftContent .myPaper .paperInfo {
+	margin-left: 50px;
+	padding-left: 50px;
+	background: url("img/resume_web.png") no-repeat;
+	float: left;
+	height: 200px;
+	line-height: 20px;
+	font-size: 0.9em;
+	color: #777777;
+}
+#container .leftContent .myPaper a {
+	color: #777777;
+}
+#container .leftContent .myPaper .paperOpition {
+	float: left;
+	margin-left: 10%;
+}
+#container .leftContent .myPaper .paperOpition a {
+	display: inline-block;
+	margin: 5px;
+}
+#container .leftContent .sendPaper {
+	display: inline-block;
+	padding: 15px 30px;
+	margin-top: 30px;
+	margin-left: 110px;
+	color: rgb(255, 255, 255);
+	text-decoration: none;
+	background: #019875;
+	float: right;
+	margin-right: 30px;
+	margin-bottom: 50px;
+}
+#container .leftContent .advertDetail .red {
+	color: #e6775c;
+}
+@media only screen and (max-width: 1600px) {
+	#header,
+	#container {
+		width: 60%;
+	}
+}
+@media only screen and (max-width: 1350px) {
+	#header,
+	#container {
+		width: 70%;
+	}
+}
+@media only screen and (max-width: 1080px) {
+	#header,
+	#container {
+		width: 80%;
+	}
+}
+@media only screen and (max-width: 900px) {
+	#header,
+	#container {
+		width: 90%;
+	}
+}
+@media only screen and (max-width: 830px) {
+	#header,
+	#container {
+		width: 100%;
+	}
+}
+@media only screen and (max-width: 750px) {
+	#header #top .topBar li {
+		margin-right: 0;
+	}
+	#container .leftContent .advertDetail span,
+	#container .leftContent .advertDetail p {
+		font-size: 16px;
+	}
+	#container .leftContent .myPaper {
+		height: 100px;
+	}
+	#container .leftContent .myPaper .paperInfo {
+		margin-left: 0;
+	}
+	#container .leftContent .myPaper .paperOpition {
+		display: block;
+		margin: 0;
+		padding: 0;
+	}
+}

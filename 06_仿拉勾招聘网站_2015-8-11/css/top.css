@@ -1,4 +1,5 @@
 /*包含顶部的样式和wrapper的样式*/
+
 #wrapper {
 	width: 100%;
 	font-family: "微软雅黑", ​"宋体", ​Arial;
@@ -45,6 +46,7 @@
 	right: 0;
 	top: 0;
 	background: rgb(1, 152, 117);
+	display: none;
 }
 #top .loginBtn a {
 	display: inline-block;
@@ -60,6 +62,61 @@
 #top .loginBtn a:hover {
 	color: rgb(204, 234, 227);
 }
+#top .userBtn,
+#top .companyBtn {
+	position: absolute;
+	right: 0;
+	top: 0;
+	background: rgb(1, 152, 117);
+	z-index: 5;
+	/*display: none;*/
+}
+#top .userBtn a{
+	display: inline-block;
+	padding: 0 13px;
+	margin: 6px 0;
+	font-size: 0.87em;
+	color: rgb(255, 255, 255);
+	text-decoration: none;
+}
+#top .userBtn dt span{
+	display: inline-block;
+	background: url(img/s_drop.png);
+	transition: transform 0.2s ease 0s;
+	width: 14px;
+	height: 9px;
+}
+#top .userBtn dl dt{
+	display: block;
+	width: 110px;
+}
+#top .userBtn dl dd{
+	display: none;
+}
+#top .userBtn dl:hover .sharp{
+	transform: rotate(180deg);
+}
+#top .userBtn dl:hover dd {
+	display: block;
+}
+#top .userBtn dl:hover dd .notic {
+	color: rgb(255, 255, 255);
+	font-size: 0.7em;
+	display: inline-block;
+	margin-right: 10px;
+	margin-left: 20px;
+	float: right;
+	line-height: 25px;
+}
+#top .userBtn dl .roundCircle {
+	background: rgba(0, 0, 0, 0) url("img/noticeDot.png") no-repeat scroll 0 0;
+	height: 9px;
+	margin: 11px 0 0 10px;
+	width: 9px;
+}
+#top .userBtn dd:hover {
+	background-color: #91CEBE;
+}
 @media only screen and (max-width: 480px) {
 	#top .topBar li {
 		font-size: 0.8em;
@@ -73,10 +130,5 @@
 	}
 	#top .loginBtn a {
 		display: block;
-	}
-}
-@media only screen and (max-width:1600px ) {
-	#top{
-		/*width: 70%;*/
 	}
 }
