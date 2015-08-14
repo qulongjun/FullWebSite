@@ -13,7 +13,12 @@
 	background-position: right top;
 }
 #bottom {
+	width: 100%;
 	text-align: center;
+}
+.fix{
+	position: fixed;
+ 	bottom: 0;
 }
 #bottom hr {
 	color: rgba(236, 236, 236, 0.3);
@@ -31,11 +36,11 @@
 	position: absolute;
 	top: -243px;
 	z-index: 4;
-	opacity: 0;
+	display: none;
 	left: 0;
 }
 #bottom li:last-of-type:hover .weixin {
-	opacity: 1;
+	display: block;
 }
 #bottom .webInfo {
 	color: rgb(85, 85, 85);

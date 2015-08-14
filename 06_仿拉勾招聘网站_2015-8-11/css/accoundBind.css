@@ -1,0 +1,102 @@
+#container {
+	font-size: 16px;
+	font-family: "微软雅黑";
+	width: 55%;
+	margin: 0 auto;
+	margin-bottom: 35px;
+	height: 100%;
+	overflow: hidden;
+	position: relative;
+}
+#container .leftContent {
+	width: 22%;
+	height: 100%;
+	float: left;
+	position: relative;
+}
+#container .rightContent {
+	width: 70%;
+	height: 100%;
+	float: left;
+	margin-left: 50px;
+	margin-top: 5px;
+}
+#container .leftContent dl {
+	width: 100%;
+	background: #fafafa none repeat scroll 0 0;
+}
+#container .leftContent dl dt {
+	padding: 30px 0;
+}
+#container .leftContent dl dt h2 {
+	color: #999999;
+	font-size: 1.125em;
+	padding-left: 38px;
+}
+#container .leftContent dl dd {
+	padding: 20px 0;
+	color: #000000;
+	font-size: 0.8em;
+	padding-left: 45px;
+	cursor: pointer;
+}
+#container .leftContent dl .active {
+	background: #f1f1f1 none repeat scroll 0 0;
+}
+#container .rightContent {
+	background: #fafafa none repeat scroll 0 0;
+}
+#container .rightHead {
+	position: absolute;
+	z-index: 3;
+	top: 0px;
+	left: 32%;
+	display: inline-block;
+	padding: 10px 20px;
+	font-size: 1.5em;
+	background: #91cebe none repeat scroll 0 0;
+	color: #FFFFFF;
+}
+#container .rightHead span {
+	background: rgba(0, 0, 0, 0) url("img/title_arrow01.png") no-repeat scroll 0 0;
+	height: 8px;
+	left: -6px;
+	position: absolute;
+	top: 0;
+	width: 6px;
+}
+#container .nowInfo,
+#container .bind{
+	border-bottom: 1px dashed #d6d6d6;
+	width: 60%;
+	margin-top: 100px;
+	margin-left: 10%;
+	padding-left: 5px;
+	padding-bottom: 20px;
+	padding-right: 20%;
+}
+#container .nowInfo p{
+	 color: #777;
+    font-size: 20px;
+    line-height: 45px;
+}
+#container .bind{
+	margin-top: 20px;
+}
+#container .bind li{
+	margin-bottom: 10px;
+	height: 38px;
+	color: #777777;
+}
+#container .bind li img{
+	float: left;
+}
+#container .bind li span{
+	float: left;
+	line-height: 38px;
+	margin-left: 20px;
+}
+
+#container .bind li a{
+	color: #019875;
+}
