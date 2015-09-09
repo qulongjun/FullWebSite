@@ -104,7 +104,6 @@ a:hover {
 }
 #rightNav .rightContent .contentItem .head3 {
 	background: #9688aa none repeat scroll 0 0;
-	df4fcc
 }
 #rightNav .rightContent .contentItem .head4 {
 	background: #3da92f none repeat scroll 0 0;
@@ -147,33 +146,43 @@ a:hover {
 	vertical-align: top;
 	padding-right: 10%;
 	line-height: 1.5em;
-	padding-left: 20px;
+	padding-left: 10px;
 }
 #rightNav .rightContent .contentItem .selfSkill dt {
-	position: relative;
-	left: -20px;
-	font-size: 1.2em;
-	font-weight: 600;
+	font-weight: bold;
 }
 #rightNav .rightContent .contentItem .selfSkill dd {
-	padding-left: 0.2em;
+	text-indent: 2em;
 }
-#rightNav .rightContent .contentItem .selfSkill dl:last-child {
-	display: block;
-	margin-top: 20px;
-}
-#rightNav .rightContent .contentItem .selfSkill a {
-	color: #e9a820;
+#rightNav .rightContent .contentItem .selfSkill .skWrap {
+	display: inline-block;
+	margin: 0 5px 10px 5px;
+	text-align: center;
 }
 #rightNav .rightContent .contentItem .project dt,
 #rightNav .rightContent .contentItem .otherInfo dt {
-	font-size: 1.2em;
-	padding: 10px 0;
-	font-weight: 600;
+	font-weight: bold;
 }
 #rightNav .rightContent .contentItem .project dd,
 #rightNav .rightContent .contentItem .otherInfo dd {
 	padding: 0 2em;
+}
+#rightNav .rightContent .contentItem .project li {
+	display: inline-block;
+	padding-right: 20px;
+}
+#rightNav .rightContent .contentItem .project .projectInfo dl {
+	overflow: hidden;
+	margin-bottom: 10px;
+}
+#rightNav .rightContent .contentItem .project .projectInfo dt {
+	float: left;
+	width: 10%;
+}
+#rightNav .rightContent .contentItem .project .projectInfo dd {
+	float: left;
+	width: 90%;
+	padding: 0;
 }
 @media only screen and (min-width: 1081px) and (max-width: 1350px) {
 	.leftTop h1 {

@@ -57,17 +57,18 @@ body {
 	margin-right: 2%;
 	position: relative;
 	z-index: 4;
+	text-align: right;
 }
 #header .topBar .rightHead li {
+	display: inline-block;
 	line-height: 50px;
 	font-size: 1em;
 	padding: 0 15px;
 	display: inline-block;
-	float: right;
 	cursor: pointer;
 }
-#header .topBar .rightHead li a{
-	color: rgb(255,255,255);
+#header .topBar .rightHead li a {
+	color: rgb(255, 255, 255);
 	text-decoration: none;
 }
 #header .topBar .rightHead li:hover {
@@ -158,11 +159,12 @@ body {
 #content .total h1 {
 	position: relative;
 	z-index: 3;
-	font-family: 'cyzcuxingkai398944', '隶书';
-	font-size: 3em;
+	font-family: '楷体';
+	font-size: 4em;
+	letter-spacing: 1em;
 	text-align: center;
 	font-weight: 600;
-	color: rgba(43, 163, 167, 0.8);
+	color: rgba(255, 255, 255, 0.8);
 	padding: 1% 0;
 }
 #content .total h1 {
@@ -176,8 +178,9 @@ body {
 #content .jsWork .jsContent,
 #content .fullSiteWork .fullSiteContent {
 	display: inline-block;
-	width: 20%;
-	margin: 1%;
+	width: 25%;
+	margin: 2%;
+	margin: 10% 2% 5% 2%;
 	position: relative;
 	z-index: 4;
 }
@@ -185,6 +188,8 @@ body {
 #content .jsWork .jsContent img,
 #content .fullSiteWork .fullSiteContent img {
 	width: 100%;
+	height: 250px;
+	border-radius: 20px;
 }
 #content .cssWork .cssContent .cover,
 #content .jsWork .jsContent .cover,
@@ -196,6 +201,7 @@ body {
 	left: 0;
 	width: 100%;
 	opacity: 0;
+	border-radius: 20px;
 }
 #content .cssWork .cssContent .cover h2,
 #content .jsWork .jsContent .cover h2,
@@ -264,99 +270,6 @@ body {
 		color: white;
 		background: rgba(27, 158, 170, 1);
 	}
-}
-#content .contactMe p:first-of-type {
-	font-size: 2em;
-	position: relative;
-	z-index: 3;
-	font-family: BauhausITCbyBT-Medium29403;
-}
-#content .contactMe p:last-of-type {
-	font-size: 1.5em;
-	position: relative;
-	z-index: 3;
-	font-family: 'minijianlinxin398683', '华文行楷';
-}
-#content .comment {
-	height: 60%;
-}
-#content .contactMe .leftComment,
-#content .contactMe .rightInfo {
-	position: relative;
-	z-index: 4;
-	width: 45%;
-	margin-left: 5%;
-	text-align: center;
-	float: left;
-	height: 100%;
-}
-#content .contactMe .leftComment h2 {
-	font-family: "隶书";
-	color: white;
-	font-size: 2em;
-	letter-spacing: 2em;
-}
-#content .contactMe .leftComment input[type=text],
-#content .contactMe .leftComment a,
-#content .contactMe .leftComment textarea {
-	background: transparent;
-	border: 1px solid rgb(255, 255, 255);
-	display: block;
-	margin: 20px auto;
-	width: 70%;
-	color: rgb(255, 255, 255);
-}
-#content .contactMe .leftComment input[type=text] {
-	height: 10%;
-}
-#content .contactMe .leftComment textarea {
-	height: 50%;
-}
-#content .contactMe .leftComment a {
-	text-decoration: none;
-	font-size: 1.2em;
-	line-height: 2em;
-	line-height: 40px;
-	letter-spacing: 2em;
-}
-#content .contactMe .leftComment a:hover {
-	animation: leftComment 0.4s;
-	animation-fill-mode: forwards;
-}
-@keyframes leftComment {
-	to {
-		color: rgba(0, 0, 0, 1);
-		background: rgba(255, 255, 255, 1);
-	}
-}
-#content .contactMe .rightInfo {
-	padding-top: 5%;
-	font-size: 1.2em;
-	line-height: 1.5em;
-	color: rgb(255, 255, 255);
-	text-align: left;
-	height: auto;
-}
-#content .contactMe .rightInfo li {
-	padding: 10px;
-}
-#content .contactMe .rightInfo li a {
-	color: rgb(255, 255, 255);
-	text-decoration: none;
-}
-#content .contactMe .rightInfo .btn {
-	margin: 20px;
-}
-#content .contactMe .rightInfo .btn a {
-	color: rgb(255, 255, 255);
-	text-decoration: none;
-	padding: 10px 20px;
-	margin-right: 5%;
-	border: 1px solid rgb(255, 255, 255);
-}
-#content .contactMe .rightInfo .btn a:hover {
-	animation: leftComment 0.4s;
-	animation-fill-mode: forwards;
 }
 @media only screen and (min-width: 1401px) and (max-width: 1520px) {
 	#content .cssWork h1,
