@@ -1,0 +1,145 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+
+	<head>
+		<meta charset="UTF-8">
+		<title>Paging.js——分页生成插件</title>
+		<link rel="stylesheet" href="css/jquery.fullPage.css">
+		<link rel="stylesheet" type="text/css" href="css/main.css" />
+	</head>
+
+	<body>
+		<div id="dowebok">
+			<div class="section">
+				<h1 class="name1">基于JQuery的页码生成插件</h1>
+				<h2 class="name2">——Paging.js</h2>
+				<p class="version">当前版本：V1.3-final最终版</p>
+				<p class="version">兼容IE8及以上、FireFox、Opera、Chrmoe等主流浏览器</p>
+			</div>
+			<div class="section">
+				<p class="adv">动态页码？独特外观？——私人定制！打造属于自己的页码！</p>
+				<div id="container">
+
+					<div class="left">
+						<p>使用paging插件，您可以：</p>
+						<ul>
+							<li>兼容各大主流浏览器</li>
+							<li>与后台交互，让数据库决定页码数</li>
+							<li>定义自己的外观样式，发挥你的想象力吧</li>
+							<li>自定义起始页、显示页，卓然天成，为你而生</li>
+							<li>良好的回调函数，让操作更简易</li>
+							<li>......</li>
+						</ul>
+					</div>
+					<div class="right">
+						<a href="download/paging-V1.3-final.min.js">
+							<div class="download">
+								<img src="images/download2.png" />
+								<p>下载运行版</p>
+								<p>Paging.min.js</p>
+							</div>
+						</a>
+						<a href="download/paging-V1.3-final.js">
+							<div class="download">
+								<img src="images/download.png" />
+								<p>下载开发版</p>
+								<p>Paging.js</p>
+							</div>
+						</a>
+						<a href="https://github.com/qulongjun/JQuery_Pagination">
+							<div class="download">
+								<img src="images/Github.png" />
+								<p>访问项目GitHub</p>
+								<p>协作开发</p>
+							</div>
+						</a>
+					</div>
+				</div>
+				<p class="nextPage">滚动进入下一页——使用方法</p>
+			</div>
+			<div class="section">
+				<div class="code">
+					<h2>Paging.js使用方法</h2>
+					<ol>
+						<li>下载Paging.js插件(<a href="download/paging-V1.3-final.min.js">点此下载</a>)，该插件依赖JQuery库(<a href="http://jquery.com/download/">点此下载</a>)</li>
+						<li>在&lt;head&gt;标签中导入JQuery库和Paging.js插件:
+							<pre class="imp">
+&lt;script src="js/jquery-1.11.3.min.js" type="text/javascript" charset="utf-8"&gt;&lt;/script&gt;
+&lt;script src="js/page4.js" type="text/javascript" charset="utf-8"&gt;&lt;/script&gt;</pre>
+						</li>
+						<li>调用方法：<span class="imp">$(selection).paging(object);</span></li>
+						<li>object参数列表：
+							<ul>
+								<li>pageCount（必需）：页码总数</li>
+								<li>initPage：初始页码位置</li>
+								<li>showCount：每次显示多少页</li>
+								<li>fn：回调函数，参数为当前页码数</li>
+								<li>liCss：默认页码样式，JSON格式</li>
+								<li>liActive：选中时页码的样式，JSON格式</li>
+								<li>liForbid：不可用时页码的样式，JSON格式</li>
+							</ul>
+						</li>
+					</ol>
+					<hr />
+					<h2>Demo</h2>
+					<div class="demo imp">
+						<pre>
+$('#div2').paging({
+'pageCount': 20,
+'initPage': 1,
+'showCount': 5,
+'fn': function a(pageNum) {
+	alert('页码为：' + pageNum);
+},
+'liCss': {
+'display': 'inline-block',
+'border': '#8db5d7 1px solid',
+'padding': '2px 8px',
+'cursor': 'pointer',
+'margin': '0 4px',
+'color': '#000',
+'border-radius': '5px',
+'pointer-events': 'auto'
+},
+'liActive': {
+'border': '#e89954 1px solid',
+'font-weight': 'bold',
+'background': '#ffca7d',
+'cursor': 'default',
+'pointer-events': 'none'
+},
+'liForbid': {
+'border': '#ccc 1px solid',
+'color': '#ccc',
+'cursor': 'default',
+'pointer-events': 'none'
+}});</pre></div><img src="images/demo1.jpg" />
+				</div>
+			</div>
+		</div>
+
+		<script src="js/jquery-1.8.3.min.js"></script>
+		<script src="js/jquery.fullPage.min.js"></script>
+		<script>
+			$(function() {
+				$('#dowebok').fullpage({
+					sectionsColor: ['#1bbc9b', '#4BBFC3', '#7BAABE']
+				});
+				$(window).resize(function() {
+					autoScrolling();
+				});
+
+				function autoScrolling() {
+					var $ww = $(window).width();
+					if ($ww < 1024) {
+						$.fn.fullpage.setAutoScrolling(false);
+					} else {
+						$.fn.fullpage.setAutoScrolling(true);
+					}
+				}
+				autoScrolling();
+			});
+		</script>
+	</body>
+
+</html>

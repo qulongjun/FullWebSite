@@ -1,0 +1,91 @@
+.section {
+				text-align: center;
+				font-family: "Microsoft Yahei";
+				color: #fff;
+			}
+			.section h1.name1 {
+				font-size: 50px;
+				letter-spacing: 10px;
+			}
+			.section h2.name2 {
+				font-size: 30px;
+				text-indent: 20%;
+			}
+			.section p.version {
+				font-size: 20px;
+				margin-top: 5%;
+			}
+			.section p.adv {
+				position: absolute;
+				top: 100px;
+				width: 100%;
+				font-size: 30px;
+			}
+			.section #container {
+				width: 100%;
+				overflow: hidden;
+			}
+			.section div.left {
+				width: 30%;
+				float: left;
+				margin: 5%;
+				font-size: 15px;
+				background: rgba(0, 0, 0, 0.3);
+				text-align: left;
+				text-indent: 1em;
+			}
+			.section div.left p {
+				font-size: 20px;
+			}
+			.section div.left li {
+				margin: 10px 0;
+			}
+			.section div.right {
+				width: 50%;
+				float: left;
+				margin: 5% 0;
+			}
+			.section div.right .download {
+				float: left;
+				color: black;
+			}
+			.section div.right img {
+				width: 150px;
+				height: 150px;
+				margin: 0 30px;
+			}
+			.section p.nextPage {
+				position: absolute;
+				bottom: 50px;
+				color: #ccc;
+				font-size: 30px;
+				width: 100%;
+			}
+			.section .code {
+				margin: 0 auto;
+				width: 80%;
+				height: 800px;
+				background: rgba(0, 0, 0, 0.3);
+				text-align: left;
+			}
+			.section .code h2 {
+				padding-top: 1em;
+				color: #CCCCCC;
+				text-align: center;
+			}
+			.section .imp {
+				color: #4BBFC3;
+				background: rgba(0, 0, 0, 0.6);
+			}
+			.section .demo {
+				display: inline-block;
+				height: 200px;
+				width: 40%;
+				margin: 0 5%;
+				overflow: scroll;
+			}
+			.section .code img {
+				float: right;
+				margin-right: 10px;
+				border-radius: 20px;
+			}
